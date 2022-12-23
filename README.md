@@ -1,5 +1,6 @@
 # ins-products
-[Image: Screen Shot 2022-05-09 at 6.55.56 PM.png]
+
+
 # A-HLS Payer Sample Product Documentation 
 
 * * *
