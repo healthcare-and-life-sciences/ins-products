@@ -23,19 +23,6 @@ The products data pack you import are just data with no functions attached to it
 2. [Small Group Quoting](https://github.com/healthcare-and-life-sciences/small-group-quoting)
 
 
-
-**Reference Links**
-
-Insurance Product modeling is a complex topic. If you are planing on taking these sample datapacks and modfying to suite your own business requriments please read these documents. 
-
-https://www.healthinsurance.org/glossary/small-group-health-insurance/
-
-https://www.healthinsurance.org/glossary/metal-plans/
-
-https://help.salesforce.com/s/articleView?id=ind.insurance_insurance_product_modeling_specifications_603842.htm&type=5
-
-(https://help.salesforce.com/s/articleView?id=ind.insurance_product_json_structure_model_609451.htm&type=5
-
 **Datapacks Design**
 
 The filename of the data pack will match the product code of the Insurance product
@@ -122,6 +109,16 @@ Make sure vlocity insurance (vlocity_ins) is installed.
 2. A customer is assuming Salesforce Lightning Experience — not Classic.
 3. Data Model elements that are part of the HINS (Vlocity) Managed package are all available.
 4. The Accelerator uses the Lightning Design System standards and look. Customers may want to apply their own branding, which can be achieved.
+5. Insurance Product modeling is a complex topic. If you are planing on taking these sample datapacks and modfying to suite your own business requriments please read these documents. 
+
+[What is small-group health insurance?](https://www.healthinsurance.org/glossary/small-group-health-insurance/)
+
+[What are metal plans?](https://www.healthinsurance.org/glossary/metal-plans/)
+
+[Salesforce Product Modeling Specification](https://help.salesforce.com/s/articleView?id=ind.insurance_insurance_product_modeling_specifications_603842.htm&type=5)
+
+[Salesforce Product data structure](https://help.salesforce.com/s/articleView?id=ind.insurance_product_json_structure_model_609451.htm&type=5)
+
 
 * * *
 
@@ -130,8 +127,3 @@ Make sure vlocity insurance (vlocity_ins) is installed.
 * **Revision Short Description (Dec 23, 2022)**
 * Initial deployment for Small Group
 
-* * *
-
-## Internal Only Information
-
-* The QA document can be found at https://salesforce.quip.com/NEnUAzhJTxLa
