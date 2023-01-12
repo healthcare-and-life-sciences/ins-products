@@ -1,0 +1,415 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Medical_OverallStarR": "4",
+            "Medical_annualDed_INN": "No Deductible",
+            "Medical_annualDed_OON": "No Deductible",
+            "Medical_annualOOP_INN": "$10,000 / $20,000",
+            "Medical_annualOOP_OON": "$10,000 / $20,000",
+            "Medical_coinsurance_INN": "50% After Ded",
+            "Medical_coinsurance_OON": "Not Covered",
+            "Medical_lifetimeMax_INN": "Unlimited",
+            "Medical_lifetimeMax_OON": "Unlimited",
+            "Medical_preventative_INN": "$0 Copay",
+            "Medical_preventative_OON": "$0 Copay"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MED_Medical",
+                    "Name": "Medical Benefits",
+                    "displaySequence": 2000,
+                    "id": "a0U5e000000GLZmEAO",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0V5e000000GWrfEAG",
+                                "cloneable": true,
+                                "code": "Medical_annualDed_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Annual Deductible",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0V5e000000GWrgEAG",
+                                "cloneable": true,
+                                "code": "Medical_annualDed_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Annual Deductible",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0V5e000000GWrhEAG",
+                                "cloneable": true,
+                                "code": "Medical_annualOOP_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Annual OOP Limit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0V5e000000GWriEAG",
+                                "cloneable": true,
+                                "code": "Medical_annualOOP_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Annual OOP Limit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0V5e000000GWrjEAG",
+                                "cloneable": true,
+                                "code": "Medical_coinsurance_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Coinsurance",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0V5e000000GWrkEAG",
+                                "cloneable": true,
+                                "code": "Medical_coinsurance_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 5,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Coinsurance",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0V5e000000GWrlEAG",
+                                "cloneable": true,
+                                "code": "Medical_lifetimeMax_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 6,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Lifetime Maximum",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0V5e000000GWrmEAG",
+                                "cloneable": true,
+                                "code": "Medical_lifetimeMax_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 7,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Lifetime Maximum",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0V5e000000GWrnEAG",
+                                "cloneable": true,
+                                "code": "Medical_preventative_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 8,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Preventive Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0V5e000000GWroEAG",
+                                "cloneable": true,
+                                "code": "Medical_preventative_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 9,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Preventive Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0V5e000000GWsMEAW",
+                                "cloneable": true,
+                                "code": "Medical_OverallStarR",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 10,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Star Rating",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 11
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MED_Medical\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4X5e000000d2cZEAQ\",\"attributeid__c\":\"a0V5e000000GWrhEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_annualOOP_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Annual OOP Limit\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUXbEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$10,000 / $20,000\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$10,000 / $20,000\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4X5e000000d2cZEAQ\",\"attributeid__c\":\"a0V5e000000GWriEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_annualOOP_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Annual OOP Limit\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUXcEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$10,000 / $20,000\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$10,000 / $20,000\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4X5e000000d2cZEAQ\",\"attributeid__c\":\"a0V5e000000GWrjEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_coinsurance_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Coinsurance\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUXdEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"50% After Ded\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"50% After Ded\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t5e000001z4KVAAY\",\"attributeid__c\":\"a0V5e000000GWrfEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_annualDed_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Annual Deductible\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUNiEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"No Deductible\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"No Deductible\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t5e000001z4KVAAY\",\"attributeid__c\":\"a0V5e000000GWrgEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_annualDed_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Annual Deductible\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUNjEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"No Deductible\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"No Deductible\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t5e000001z4KVAAY\",\"attributeid__c\":\"a0V5e000000GWsMEAW\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_OverallStarR\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"10\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Star Rating\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":4,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUNsEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"4\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"4\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t5e000001z4KVAAY\",\"attributeid__c\":\"a0V5e000000GWrkEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_coinsurance_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"5\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Coinsurance\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUNnEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Not Covered\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Not Covered\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t5e000001z4KVAAY\",\"attributeid__c\":\"a0V5e000000GWrlEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_lifetimeMax_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"6\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Lifetime Maximum\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUNoEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Unlimited\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Unlimited\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t5e000001z4KVAAY\",\"attributeid__c\":\"a0V5e000000GWrmEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_lifetimeMax_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"7\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Lifetime Maximum\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUNpEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Unlimited\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Unlimited\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t5e000001z4KVAAY\",\"attributeid__c\":\"a0V5e000000GWrnEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_preventative_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"8\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Preventive Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUNqEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$0 Copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$0 Copay\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01t5e000001z4KVAAY\",\"attributeid__c\":\"a0V5e000000GWroEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_preventative_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"9\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Preventive Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUNrEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$0 Copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$0 Copay\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0b0faaea-5de4-ef27-a11d-28d3ff3bfd89",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/0b0faaea-5de4-ef27-a11d-28d3ff3bfd89",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2d117206-fa18-3465-3d0b-9bf94001bbe4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/2d117206-fa18-3465-3d0b-9bf94001bbe4",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1078299692"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Medical_primaryCare_INN": "$750 Copay",
+            "Medical_primaryCare_OON": "$750 Copay"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MED_Medical",
+                    "Name": "Medical Benefits",
+                    "displaySequence": 2000,
+                    "id": "a0U5e000000GLZmEAO",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0V5e000000GWrpEAG",
+                                "cloneable": true,
+                                "code": "Medical_primaryCare_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Primary Care Visit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0V5e000000GWrqEAG",
+                                "cloneable": true,
+                                "code": "Medical_primaryCare_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Primary Care Visit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MED_Medical\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4X5e000000d2caEAA\",\"attributeid__c\":\"a0V5e000000GWrpEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_primaryCare_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Primary Care Visit\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUXeEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$750 Copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$750 Copay\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4X5e000000d2caEAA\",\"attributeid__c\":\"a0V5e000000GWrqEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_primaryCare_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Primary Care Visit\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUXfEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$750 Copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$750 Copay\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c4cce140-7e19-1e92-d457-910ad585345c",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/c4cce140-7e19-1e92-d457-910ad585345c",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2d117206-fa18-3465-3d0b-9bf94001bbe4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/2d117206-fa18-3465-3d0b-9bf94001bbe4",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-131947740"
+    }
+]

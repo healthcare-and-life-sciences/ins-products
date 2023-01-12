@@ -1,0 +1,312 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Advantage-Dental-Plus-Plan_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "Dental_basic_serv_INN": "80%",
+        "Dental_major_serv_INN": "50%",
+        "Dental_pers_fam_INN": "$50/$150",
+        "Rating_LISSubsidy": 100,
+        "Rating_ProductCode": "H7317-003",
+        "Rating_ProductName": "Advantage Dental Plus Plan",
+        "Rating_ProductSubtype": "QHP"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "Dental_Benefits",
+                "Name": "Dental Benefits",
+                "displaySequence": 2010,
+                "id": "a0U5e000000GLZuEAO",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWtYEAW",
+                            "cloneable": true,
+                            "code": "Dental_pers_fam_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Person/Family",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWtAEAW",
+                            "cloneable": true,
+                            "code": "Dental_basic_serv_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Basic Services - In Network",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWtTEAW",
+                            "cloneable": true,
+                            "code": "Dental_major_serv_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Major Services - In Network",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            },
+            {
+                "Code__c": "ProductRating",
+                "Name": "Product Rating",
+                "displaySequence": 2150,
+                "id": "a0U5e000000GLZsEAO",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0V5e000000GWrKEAW",
+                            "cloneable": true,
+                            "code": "Rating_LISSubsidy",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": false,
+                            "label": "LowSubsidy",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0V5e000000GWrFEAW",
+                            "cloneable": true,
+                            "code": "Rating_ProductCode",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": false,
+                            "hasRules": true,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Code",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0V5e000000GWrGEAW",
+                            "cloneable": true,
+                            "code": "Rating_ProductName",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Name",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0V5e000000GWrHEAW",
+                            "cloneable": true,
+                            "code": "Rating_ProductSubtype",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Subtype",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 4
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2019-04-14",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2019-04-15T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "79fad939-0739-2e82-b4f2-843c491055fb",
+    "%vlocity_namespace%__GlobalKey__c": "cb2457eb-545c-d5c1-1b83-c4b4f02a2108",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"07/19/21\"},\"inputs\":{\"01t5e000001rLUJAA2\":{\"a0S5e000001B52rEAC\":{\"count\":1,\"attributeCode\":\"Rating_ProductCode\",\"attributeLabel\":\"Product Code\",\"objectId\":\"01t5e000001rLUJAA2\",\"ratingInput\":\"ProductCode\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"H7317-003\"},\"productName\":\"Advantage Dental Plus Plan\",\"productRecordType\":\"Product\",\"productCode\":\"H7317-003\",\"isRoot\":true},\"01t5e000001z4K0AAI\":{\"a0S5e000000FUGUEA4\":{\"count\":21,\"attributeCode\":\"Census_empSpouseCount\",\"attributeLabel\":\"Employee + Spouse Count\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"empSpouseCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"productName\":\"Small Group Census\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"SG-Census-RF\",\"isOptional\":false,\"pciId\":\"a4X5e000000dTj3EAE\",\"a0S5e000000FUGVEA4\":{\"count\":20,\"attributeCode\":\"Census_empChildCount\",\"attributeLabel\":\"Employee + Child Count\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"empChildCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S5e000000FUGTEA4\":{\"count\":19,\"attributeCode\":\"Census_empOnlyCount\",\"attributeLabel\":\"Employee Only Count\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"empOnlyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S5e000000FUGWEA4\":{\"count\":18,\"attributeCode\":\"Census_empFamilyCount\",\"attributeLabel\":\"Employee + Family Count\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"empFamilyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S5e000000FUGXEA4\":{\"count\":17,\"attributeCode\":\"CensusMember_Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":\"null\"},\"a0S5e000000FUGZEA4\":{\"count\":16,\"attributeCode\":\"CensusMember_Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null},\"a0S5e000000FUGbEAO\":{\"count\":15,\"attributeCode\":\"CensusMember_IsPrimary\",\"attributeLabel\":\"IsPrimary\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"IsPrimary\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":true},\"a0S5e000000FUGcEAO\":{\"count\":14,\"attributeCode\":\"CensusMember_IsSpouse\",\"attributeLabel\":\"IsSpouse\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"IsSpouse\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null},\"a0S5e000000FUGeEAO\":{\"count\":13,\"attributeCode\":\"CensusMember_Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null},\"a0S5e0000019RvAEAU\":{\"count\":12,\"attributeCode\":\"Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":\"null\"},\"a0S5e0000019RvEEAU\":{\"count\":11,\"attributeCode\":\"Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0S5e0000019RvCEAU\":{\"count\":10,\"attributeCode\":\"Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0S5e0000019RvBEAU\":{\"count\":9,\"attributeCode\":\"Id\",\"attributeLabel\":\"CensusMemberId\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"CensusMemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0S5e0000019RvGEAU\":{\"count\":8,\"attributeCode\":\"SG_empChildCount\",\"attributeLabel\":\"Employee + Child Count\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"empChildCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S5e0000019RvHEAU\":{\"count\":7,\"attributeCode\":\"SG_empFamilyCount\",\"attributeLabel\":\"Employee + Family Count\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"empFamilyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S5e0000019RvIEAU\":{\"count\":6,\"attributeCode\":\"SG_empSpouseCount\",\"attributeLabel\":\"Employee + Spouse Count\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"empSpouseCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S5e0000019RvJEAU\":{\"count\":5,\"attributeCode\":\"SG_empOnlyCount\",\"attributeLabel\":\"Employee Only Count\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"empOnlyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S5e0000019RvMEAU\":{\"count\":4,\"attributeCode\":\"SG_CM_IsPrimary\",\"attributeLabel\":\"IsPrimary\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"IsPrimary\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":true},\"a0S5e0000019RvLEAU\":{\"count\":3,\"attributeCode\":\"SG_CM_Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":null},\"a0S5e0000019RvKEAU\":{\"count\":2,\"attributeCode\":\"SG_CM_Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":\"null\"},\"a0S5e0000019RvNEAU\":{\"count\":1,\"attributeCode\":\"SG_CM_IsSpouse\",\"attributeLabel\":\"IsSpouse\",\"objectId\":\"01t5e000001z4K0AAI\",\"ratingInput\":\"IsSpouse\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":null}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Individual Health",
+    "%vlocity_namespace%__MarketSegment__c": "Individual",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "GroupPremium",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "918b83a4-495a-06db-5154-ad8822bad5ea",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/918b83a4-495a-06db-5154-ad8822bad5ea",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "Demo",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2019-04-14T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "PPO",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "Silver",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Dental",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Advantage Dental Plus Plan",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "IN-DEN-H7317-003",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/cb2457eb-545c-d5c1-1b83-c4b4f02a2108"
+}

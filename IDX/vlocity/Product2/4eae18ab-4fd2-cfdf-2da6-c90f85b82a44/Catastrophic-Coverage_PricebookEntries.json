@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Catastrophic Coverage",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "4eae18ab-4fd2-cfdf-2da6-c90f85b82a44",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "4eae18ab-4fd2-cfdf-2da6-c90f85b82a44",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/4eae18ab-4fd2-cfdf-2da6-c90f85b82a44",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "PDPCatastrophic",
+        "UnitPrice": 1,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/4eae18ab-4fd2-cfdf-2da6-c90f85b82a44"
+    }
+]

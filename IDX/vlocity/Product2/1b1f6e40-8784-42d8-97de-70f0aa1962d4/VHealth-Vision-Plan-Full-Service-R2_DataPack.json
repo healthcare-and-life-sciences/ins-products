@@ -1,0 +1,355 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "VHealth-Vision-Plan-Full-Service-R2_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "GroupEmployerPremium": null,
+        "GroupMemberPremium": null,
+        "SG_ProductCode": "SG-VIS-FSV-GC",
+        "SG_eye_exam_cp": "$25",
+        "SG_eye_exam_freq": "Bi-annual",
+        "SG_frame_bene": "$200",
+        "SG_frame_freq": "Bi-annual"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "SG_ProductRating",
+                "Name": "SG Product Rating",
+                "displaySequence": 18,
+                "id": "a0B4P00001U6ArAUAV",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0C4P00000waAlHUAU",
+                            "cloneable": true,
+                            "code": "SG_ProductCode",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "SG_ProductCode",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "CensusContribution",
+                "Name": "CensusContribution",
+                "displaySequence": 1234,
+                "id": "a0B4P00001VKTp4UAH",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0C4P000011BVN0UAO",
+                            "cloneable": true,
+                            "code": "GroupEmployerPremium",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": false,
+                            "label": "GroupEmployerPremium",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0C4P000011BVN5UAO",
+                            "cloneable": true,
+                            "code": "GroupMemberPremium",
+                            "dataType": "currency",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": false,
+                            "label": "GroupMemberPremium",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "SG_Vision",
+                "Name": "SG Vision",
+                "displaySequence": 2030,
+                "id": "a0B4P00001TVpaXUAT",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0C4P00000sGRMuUAO",
+                            "cloneable": true,
+                            "code": "SG_frame_bene",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "SG_frame_bene",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0C4P00000waBa4UAE",
+                            "cloneable": true,
+                            "code": "SG_eye_exam_cp",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "SG_eye_exam_cp",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0C4P00000sGRMxUAO",
+                            "cloneable": true,
+                            "code": "SG_eye_exam_freq",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "SG_eye_exam_freq",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0C4P00000sGRMyUAO",
+                            "cloneable": true,
+                            "code": "SG_frame_freq",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "SG_frame_freq",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 4
+                }
+            }
+        ],
+        "totalSize": 3
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2011-12-14",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "2022-12-14",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "4e4a492d-84d8-f929-4756-9048e5fe5094",
+    "%vlocity_namespace%__GlobalKey__c": "1b1f6e40-8784-42d8-97de-70f0aa1962d4",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"25/01/2020\"},\"inputs\":{\"01t4P00000AZFZBQA5\":{\"a0A4P00002LXVzoUAH\":{\"count\":13,\"attributeCode\":\"SG_CA_RatingTypeAverageMemberDependents\",\"attributeLabel\":\"RatingTypeAverageMemberDependents\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"RatingTypeAverageMemberDependents\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusAverageRating\",\"categoryName\":\"CensusAverageRating\",\"attributeDefaultValue\":\"1\"},\"productName\":\"VH Small Group Census\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"VH-SG-Census-RF\",\"isOptional\":false,\"pciId\":\"a2z4P000001Tf23QAC\",\"a0A4P00002LXVztUAH\":{\"count\":12,\"attributeCode\":\"SG_CA_RatingType\",\"attributeLabel\":\"RatingType\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"RatingType\",\"attributeDataType\":\"Text\",\"categoryCode\":\"CensusAverageRating\",\"categoryName\":\"CensusAverageRating\",\"attributeDefaultValue\":\"Member\"},\"a0A4P00002LWjhuUAD\":{\"count\":11,\"attributeCode\":\"MedContribution\",\"attributeLabel\":\"MedContribution\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"MedContribution\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusContribution\",\"categoryName\":\"CensusContribution\",\"attributeDefaultValue\":\"50\"},\"a0A4P00002LWji4UAD\":{\"count\":10,\"attributeCode\":\"VisContribution\",\"attributeLabel\":\"VisContribution\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"VisContribution\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusContribution\",\"categoryName\":\"CensusContribution\",\"attributeDefaultValue\":\"50\"},\"a0A4P00002LWjhzUAD\":{\"count\":9,\"attributeCode\":\"DenContribution\",\"attributeLabel\":\"DenContribution\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"DenContribution\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusContribution\",\"categoryName\":\"CensusContribution\",\"attributeDefaultValue\":\"44\"},\"a0A4P00002HWrk7UAD\":{\"count\":8,\"attributeCode\":\"SG_empChildCount\",\"attributeLabel\":\"Employee + Child Count\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"empChildCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0A4P00002HWrkAUAT\":{\"count\":7,\"attributeCode\":\"SG_empOnlyCount\",\"attributeLabel\":\"Employee Only Count\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"empOnlyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0A4P00002HWrk9UAD\":{\"count\":6,\"attributeCode\":\"SG_empSpouseCount\",\"attributeLabel\":\"Employee + Spouse Count\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"empSpouseCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0A4P00002HWrk8UAD\":{\"count\":5,\"attributeCode\":\"SG_empFamilyCount\",\"attributeLabel\":\"Employee + Family Count\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"empFamilyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0A4P00002HWrkDUAT\":{\"count\":4,\"attributeCode\":\"SG_CM_Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":\"Male\"},\"a0A4P00002HWrkCUAT\":{\"count\":3,\"attributeCode\":\"SG_CM_CensusMemberId\",\"attributeLabel\":\"CensusMemberId\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"CensusMemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":null},\"a0A4P00002HWrkBUAT\":{\"count\":2,\"attributeCode\":\"SG_CM_Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":\"33\"},\"a0A4P00002LXXiPUAX\":{\"count\":1,\"attributeCode\":\"SG_CM_Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t4P00000AZFZBQA5\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":false}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Group Vision",
+    "%vlocity_namespace%__MarketSegment__c": "Small Group VH",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "VHealth-Vision-Plan-Full-Service-R2_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "GroupPremium",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "VHealth-Vision-Plan-Full-Service-R2_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "10c47600-fd18-75d6-74c7-7c1a2e8bf5b7",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/10c47600-fd18-75d6-74c7-7c1a2e8bf5b7",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "SmallGroupVHPercentContributionRating",
+    "%vlocity_namespace%__RatingProcedureType__c": "Calculation Procedure",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "CoverageReserve",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2022-12-14T07:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2011-12-14T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Vision",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "None",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "VHealth Vision Plan Full Service R2",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "VHealth-Vision-Plan-Full-Service-R2_PricebookEntries.json",
+    "ProductCode": "OLD-VIS-FSV-GC",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "VHealth Vision Plan Full Service R2",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "1b1f6e40-8784-42d8-97de-70f0aa1962d4",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "1b1f6e40-8784-42d8-97de-70f0aa1962d4",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/1b1f6e40-8784-42d8-97de-70f0aa1962d4",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "OLD-VIS-FSV-GC",
+            "UnitPrice": 100,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/1b1f6e40-8784-42d8-97de-70f0aa1962d4"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/1b1f6e40-8784-42d8-97de-70f0aa1962d4"
+}

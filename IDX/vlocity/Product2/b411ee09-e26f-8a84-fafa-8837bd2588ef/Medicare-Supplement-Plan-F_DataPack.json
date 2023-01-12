@@ -1,0 +1,329 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Medicare-Supplement-Plan-F_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "Description_Plan": "Medicare Supplement plan, sometimes called “Medigap,” is a private insurance policy that can help pay for some of the health care costs that Medicare doesn't cover.",
+        "MedSuppInfo_Core": "Covered at 100%",
+        "MedSuppInfo_DedA": "Covered at 100%",
+        "MedSuppInfo_DedB": "Covered at 100%",
+        "MedSuppInfo_ForTra": "Covered at 80%",
+        "MedSuppInfo_PartBExe": "Covered at 100%",
+        "MedSuppInfo_Skill": "Covered at 100%"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "MedSupp_HeatherInfo",
+                "Name": "Medicare Header Information",
+                "displaySequence": 8100,
+                "id": "a0R2E00000MbtIIUAZ",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0S2E00000x3JSqUAM",
+                            "cloneable": true,
+                            "code": "MedSuppInfo_Core",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Core Benefits",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JSrUAM",
+                            "cloneable": true,
+                            "code": "MedSuppInfo_DedA",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Part A Deductible",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JSsUAM",
+                            "cloneable": true,
+                            "code": "MedSuppInfo_DedB",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Part B Deductible",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JSvUAM",
+                            "cloneable": true,
+                            "code": "MedSuppInfo_Skill",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Skill Nursing Facility",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JSuUAM",
+                            "cloneable": true,
+                            "code": "MedSuppInfo_PartBExe",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Part B Excess (100%)",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JStUAM",
+                            "cloneable": true,
+                            "code": "MedSuppInfo_ForTra",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Foreign Travel",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JSpUAM",
+                            "cloneable": true,
+                            "code": "Description_Plan",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Plan Description",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 7
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "Medicare-Supplement-Plan-F_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2020-04-14",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "2026-04-08",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2021-01-12T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "046dd162-2963-3a40-2954-c872156a4dbd",
+    "%vlocity_namespace%__GlobalKey__c": "b411ee09-e26f-8a84-fafa-8837bd2588ef",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"05/01/20\"},\"inputs\":{\"01t4P00000AZFbHQAX\":{\"a0A4P00002HWs1UUAT\":{\"count\":5,\"attributeCode\":\"Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":\"90\"},\"productName\":\"Member\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"MedicareMember\",\"isOptional\":false,\"pciId\":\"a2z4P000003AIXZQA4\",\"a0A4P00002HWs1VUAT\":{\"count\":4,\"attributeCode\":\"Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":\"Male\"},\"a0A4P00002NjFceUAF\":{\"count\":3,\"attributeCode\":\"Location\",\"attributeLabel\":\"Location\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Location\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002HWs1bUAD\":{\"count\":2,\"attributeCode\":\"Id\",\"attributeLabel\":\"MemberId\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"MemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":\"\"},\"a0A4P00002HWs1ZUAT\":{\"count\":1,\"attributeCode\":\"Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":true}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Medicare",
+    "%vlocity_namespace%__MarketSegment__c": "Medicare",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "Medicare-Supplement-Plan-F_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "MedicareSupplementalRate__Price",
+    "%vlocity_namespace%__PricingSource__c": "MedicareSupplementalRate__Price",
+    "%vlocity_namespace%__ProductChildItem__c": "Medicare-Supplement-Plan-F_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "SmallGroupHLSMedicalProductsRatingExpSet",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "2026-04-08T08:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Medicare Supplemental",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "Medicare Supplement plan, sometimes called “Medigap,” is a private insurance policy that can help pay for some of the health care costs that Medicare doesn't cover.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Medicare Supplement Plan F",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Medicare-Supplement-Plan-F_PricebookEntries.json",
+    "ProductCode": "MC-MED-MedSupp_F",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Medicare Supplement Plan F",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "b411ee09-e26f-8a84-fafa-8837bd2588ef",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "b411ee09-e26f-8a84-fafa-8837bd2588ef",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/b411ee09-e26f-8a84-fafa-8837bd2588ef",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "MC-MED-MedSupp_F",
+            "UnitPrice": 1,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/b411ee09-e26f-8a84-fafa-8837bd2588ef"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/b411ee09-e26f-8a84-fafa-8837bd2588ef"
+}

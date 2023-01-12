@@ -1,0 +1,499 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Dental_basic_serv_INN": "50%",
+            "Dental_basic_serv_OON": "50%",
+            "Dental_diag_prev_INN": "50%",
+            "Dental_diag_prev_OON": "50%",
+            "Dental_endo_perio_oral_INN": "80%",
+            "Dental_endo_perio_oral_OON": "50%",
+            "Dental_major_serv_INN": "50%",
+            "Dental_major_serv_OON": "100%",
+            "Dental_waiting_period_INN": "90 Days"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "Dental_Benefits",
+                    "Name": "Dental Benefits",
+                    "displaySequence": 2010,
+                    "id": "a0UDn000000k9wyMAA",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnIqMAK",
+                                "cloneable": true,
+                                "code": "Dental_diag_prev_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": true,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Diagnostic and Preventive",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "50%",
+                                        "readonly": false,
+                                        "value": "50%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "80%",
+                                        "readonly": false,
+                                        "value": "80%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "100%",
+                                        "readonly": false,
+                                        "value": "100%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnIrMAK",
+                                "cloneable": true,
+                                "code": "Dental_diag_prev_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Diagnostic and Preventive",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "50%",
+                                        "readonly": false,
+                                        "value": "50%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "80%",
+                                        "readonly": false,
+                                        "value": "80%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "100%",
+                                        "readonly": false,
+                                        "value": "100%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnIoMAK",
+                                "cloneable": true,
+                                "code": "Dental_basic_serv_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": true,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Basic Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "50%",
+                                        "readonly": false,
+                                        "value": "50%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "80%",
+                                        "readonly": false,
+                                        "value": "80%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "100%",
+                                        "readonly": false,
+                                        "value": "100%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnIpMAK",
+                                "cloneable": true,
+                                "code": "Dental_basic_serv_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Basic Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "50%",
+                                        "readonly": false,
+                                        "value": "50%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "80%",
+                                        "readonly": false,
+                                        "value": "80%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "100%",
+                                        "readonly": false,
+                                        "value": "100%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnIuMAK",
+                                "cloneable": true,
+                                "code": "Dental_major_serv_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Major Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "50%",
+                                        "readonly": false,
+                                        "value": "50%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "80%",
+                                        "readonly": false,
+                                        "value": "80%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "100%",
+                                        "readonly": false,
+                                        "value": "100%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnIvMAK",
+                                "cloneable": true,
+                                "code": "Dental_major_serv_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 5,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Major Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "50%",
+                                        "readonly": false,
+                                        "value": "50%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "80%",
+                                        "readonly": false,
+                                        "value": "80%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "100%",
+                                        "readonly": false,
+                                        "value": "100%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnIsMAK",
+                                "cloneable": true,
+                                "code": "Dental_endo_perio_oral_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 6,
+                                "filterable": true,
+                                "hasRules": true,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Endontics, Periodontics, Oral Surgery",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "50%",
+                                        "readonly": false,
+                                        "value": "50%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "80%",
+                                        "readonly": false,
+                                        "value": "80%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "100%",
+                                        "readonly": false,
+                                        "value": "100%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnItMAK",
+                                "cloneable": true,
+                                "code": "Dental_endo_perio_oral_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 7,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Endontics, Periodontics, Oral Surgery",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "50%",
+                                        "readonly": false,
+                                        "value": "50%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "80%",
+                                        "readonly": false,
+                                        "value": "80%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "100%",
+                                        "readonly": false,
+                                        "value": "100%"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnIwMAK",
+                                "cloneable": true,
+                                "code": "Dental_waiting_period_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 8,
+                                "filterable": true,
+                                "hasRules": true,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Waiting Period - Major Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "No Waiting Period",
+                                        "readonly": false,
+                                        "value": "No Waiting Period"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "30 Days",
+                                        "readonly": false,
+                                        "value": "30 Days"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "90 Days",
+                                        "readonly": false,
+                                        "value": "90 Days"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 9
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"Dental_Benefits\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2TMAU\",\"attributeid__c\":\"a0VDn000000GnIvMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_major_serv_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"5\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Major Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZzDMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"100%\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"}],\"values\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"},{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"},{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"},{\"value\":\"Not Covered\",\"id\":3,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2TMAU\",\"attributeid__c\":\"a0VDn000000GnIsMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_endo_perio_oral_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"6\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Endontics, Periodontics, Oral Surgery\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":true,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZzCMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"80%\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"}],\"values\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"},{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"},{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"},{\"value\":\"Not Covered\",\"id\":3,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2TMAU\",\"attributeid__c\":\"a0VDn000000GnIwMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_waiting_period_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"8\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Waiting Period - Major Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":true,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZzEMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"90 Days\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"90 Days\",\"id\":2,\"displayText\":\"90 Days\"}],\"values\":[{\"value\":\"No Waiting Period\",\"id\":0,\"displayText\":\"No Waiting Period\"},{\"value\":\"30 Days\",\"id\":1,\"displayText\":\"30 Days\"},{\"value\":\"90 Days\",\"id\":2,\"displayText\":\"90 Days\"},{\"value\":\"Not Covered\",\"id\":3,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwelIAC\",\"attributeid__c\":\"a0VDn000000GnIqMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_diag_prev_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Diagnostic and Preventive\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":true,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrEMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"50%\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"}],\"values\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"},{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"},{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"},{\"value\":\"Not Covered\",\"id\":4,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwelIAC\",\"attributeid__c\":\"a0VDn000000GnIrMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_diag_prev_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Diagnostic and Preventive\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrFMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"50%\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"}],\"values\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"},{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"},{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"},{\"value\":\"Not Covered\",\"id\":3,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwelIAC\",\"attributeid__c\":\"a0VDn000000GnIoMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_basic_serv_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Basic Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":true,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrCMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"50%\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"}],\"values\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"},{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"},{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"},{\"value\":\"Not Covered\",\"id\":4,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwelIAC\",\"attributeid__c\":\"a0VDn000000GnIpMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_basic_serv_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Basic Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrDMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"50%\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"}],\"values\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"},{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"},{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"},{\"value\":\"Not Covered\",\"id\":4,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwelIAC\",\"attributeid__c\":\"a0VDn000000GnIuMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_major_serv_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Major Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrIMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"50%\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"}],\"values\":[{\"value\":\"50%\",\"id\":0,\"displayText\":\"50%\"},{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"},{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"},{\"value\":\"Not Covered\",\"id\":4,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwelIAC\",\"attributeid__c\":\"a0VDn000000GnItMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wyMAA\",\"categorycode__c\":\"Dental_Benefits\",\"categoryname__c\":\"Dental Benefits\",\"attributeuniquecode__c\":\"Dental_endo_perio_oral_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"7\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Endontics, Periodontics, Oral Surgery\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2010,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrHMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"50%\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"50%\",\"id\":3,\"displayText\":\"50%\"}],\"values\":[{\"value\":\"50%\",\"id\":3,\"displayText\":\"50%\"},{\"value\":\"80%\",\"id\":1,\"displayText\":\"80%\"},{\"value\":\"100%\",\"id\":2,\"displayText\":\"100%\"},{\"value\":\"Not Covered\",\"id\":4,\"displayText\":\"Not Covered\"}]},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8e6bf39a-b2a7-9bc0-7bc4-6303300d0ed0",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/8e6bf39a-b2a7-9bc0-7bc4-6303300d0ed0",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b9bb8d01-0917-955a-1b78-50df4315bfa2",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b9bb8d01-0917-955a-1b78-50df4315bfa2",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1903645469"
+    }
+]

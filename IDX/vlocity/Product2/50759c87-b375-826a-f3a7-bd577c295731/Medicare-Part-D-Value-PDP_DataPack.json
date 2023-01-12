@@ -1,0 +1,369 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Medicare-Part-D-Value-PDP_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "InitCoverageLimitINN": "$4,020",
+        "Medical_AnnualPrescDed_INN": "$437 (Applies to Tier 3,4,5)",
+        "Medical_OverallStarR": "3",
+        "Medical_annualDed_INN": "$437",
+        "Medical_annualOOP_INN": "$6,350",
+        "Plan_Description": "With the lowest premium in the market and access to preferred cost-sharing benefits at most major retail pharmacies.",
+        "Plan_Type": "Medicare Part D (PDP)",
+        "Rating_ProductCode": "H3832-015"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "MED_Medical",
+                "Name": "Medical Benefits",
+                "displaySequence": 2000,
+                "id": "a0R5e000000DBSNEA4",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S5e0000000VZYEA2",
+                            "cloneable": true,
+                            "code": "Medical_AnnualPrescDed_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Prescription Deductible",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S5e0000001d6fEAA",
+                            "cloneable": true,
+                            "code": "InitCoverageLimitINN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Initial Coverage Limit",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S5e0000000VZrEAM",
+                            "cloneable": true,
+                            "code": "Medical_annualOOP_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Out-of-Pocket Limit",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S5e0000000VZpEAM",
+                            "cloneable": true,
+                            "code": "Medical_annualDed_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Annual Deductible",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S5e0000001d6mEAA",
+                            "cloneable": true,
+                            "code": "Plan_Type",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Plan Type",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S5e0000001d6iEAA",
+                            "cloneable": true,
+                            "code": "Medical_OverallStarR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Star Rating",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S5e0000001d6lEAA",
+                            "cloneable": true,
+                            "code": "Plan_Description",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Plan Description",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 7
+                }
+            },
+            {
+                "Code__c": "ProductRating",
+                "Name": "Product Rating",
+                "displaySequence": 2150,
+                "id": "a0R5e000000DBSPEA4",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0S5e0000000VaZEAU",
+                            "cloneable": true,
+                            "code": "Rating_ProductCode",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Code",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "Medicare-Part-D-Value-PDP_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2020-04-14",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "2023-04-14",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "f01a4138-4cb4-a0ae-fd99-7f2e2f77d30a",
+    "%vlocity_namespace%__GlobalKey__c": "50759c87-b375-826a-f3a7-bd577c295731",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"05/04/20\"},\"inputs\":{\"01t4P000008XXXZQA4\":{\"a0A4P00002HunYpUAJ\":{\"count\":5,\"attributeCode\":\"Rating_ProductCode\",\"attributeLabel\":\"Product Code\",\"objectId\":\"01t4P000008XXXZQA4\",\"ratingInput\":\"ProductCode\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"H3832-015\"},\"productName\":\"Medicare Part D Value PDP\",\"productRecordType\":\"Product\",\"productCode\":\"H3832-015\",\"isRoot\":true,\"a0A4P00002HunYqUAJ\":{\"count\":4,\"attributeCode\":\"Rating_ProductName\",\"attributeLabel\":\"Product Name\",\"objectId\":\"01t4P000008XXXZQA4\",\"ratingInput\":\"ProductName\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"Medicare Part D Value PDP\"},\"a0A4P00002HunYrUAJ\":{\"count\":3,\"attributeCode\":\"Rating_ProductSubtype\",\"attributeLabel\":\"Product Subtype\",\"objectId\":\"01t4P000008XXXZQA4\",\"ratingInput\":\"ProductSubtype\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"PDP\"},\"a0A4P00002HunYsUAJ\":{\"count\":2,\"attributeCode\":\"Rating_LISSubsidy\",\"attributeLabel\":\"LowSubsidy\",\"objectId\":\"01t4P000008XXXZQA4\",\"ratingInput\":\"LISSubsidy\",\"attributeDataType\":\"Number\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"50\"},\"a0A4P00002HunYuUAJ\":{\"count\":1,\"attributeCode\":\"Rating_ProductCare\",\"attributeLabel\":\"Product Care\",\"objectId\":\"01t4P000008XXXZQA4\",\"ratingInput\":\"ProductCare\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"Low\"}},\"01t4P00000AZFbHQAX\":{\"a0A4P00002HWs1UUAT\":{\"count\":5,\"attributeCode\":\"Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":\"null\"},\"productName\":\"Member\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"MedicareMember\",\"isOptional\":false,\"pciId\":\"a2z4P000003hQAZQA2\",\"a0A4P00002HWs1VUAT\":{\"count\":4,\"attributeCode\":\"Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002HWs1ZUAT\":{\"count\":3,\"attributeCode\":\"Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002HWs1bUAD\":{\"count\":2,\"attributeCode\":\"Id\",\"attributeLabel\":\"MemberId\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"MemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002NjFceUAF\":{\"count\":1,\"attributeCode\":\"Location\",\"attributeLabel\":\"Location\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Location\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Medicare",
+    "%vlocity_namespace%__MarketSegment__c": "Medicare",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "Medicare-Part-D-Value-PDP_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "MedicarePartDPremiums__Premium",
+    "%vlocity_namespace%__PricingSource__c": "MedicarePartDPremiums__Premium",
+    "%vlocity_namespace%__ProductChildItem__c": "Medicare-Part-D-Value-PDP_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "SmallGroupHLSMedicalProductsRatingExpSet",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2023-04-13T18:30:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Term__c": "Annual",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "MedicarePartDPremiums__Premium",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Medicare Part-D",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "With the lowest premium in the market and access to preferred cost-sharing benefits at most major retail pharmacies.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "Other",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Medicare Part D Value PDP",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Medicare-Part-D-Value-PDP_PricebookEntries.json",
+    "ProductCode": "MC-MED-H3832-015",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Medicare Part D Value PDP",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "50759c87-b375-826a-f3a7-bd577c295731",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "50759c87-b375-826a-f3a7-bd577c295731",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/50759c87-b375-826a-f3a7-bd577c295731",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "MC-MED-H3832-015",
+            "UnitPrice": 1,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/50759c87-b375-826a-f3a7-bd577c295731"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/50759c87-b375-826a-f3a7-bd577c295731"
+}

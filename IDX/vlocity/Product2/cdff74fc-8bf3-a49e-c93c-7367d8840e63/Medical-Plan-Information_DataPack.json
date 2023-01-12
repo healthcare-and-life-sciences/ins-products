@@ -1,0 +1,693 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Medical-Plan-Information_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "Medical_annualDed_INN": "$500",
+        "Medical_annualDed_OON": "Not Covered",
+        "Medical_annualOOP_INN": null,
+        "Medical_annualOOP_OON": "Not Covered",
+        "Medical_coinsurance_INN": "20% After Ded",
+        "Medical_coinsurance_OON": "Not Covered",
+        "Medical_lifetimeMax_INN": "Unlimited",
+        "Medical_lifetimeMax_OON": "Unlimited",
+        "Medical_preventative_INN": "$0 Copay",
+        "Medical_preventative_OON": "$0 Copay"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "MED_Medical",
+                "Name": "Medical Benefits",
+                "displaySequence": 2000,
+                "id": "a0R2E00000JuU3BUAV",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2giUAC",
+                            "cloneable": true,
+                            "code": "Medical_annualDed_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 0,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Annual Deductible",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "$500 Indiv | $1,000 Fam",
+                                    "readonly": false,
+                                    "value": "$500 Indiv | $1,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$5,000 Indiv | $10,000 Fam",
+                                    "readonly": false,
+                                    "value": "$5,000 Indiv | $10,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "$1,000 Indiv | $2,000 Fam",
+                                    "readonly": false,
+                                    "value": "$1,000 Indiv| $2,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "$7,500 Indiv | $15,000 Fam",
+                                    "readonly": false,
+                                    "value": "$7,500 Indiv | $15,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "$500",
+                                    "readonly": false,
+                                    "value": "$500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "9",
+                                    "label": "$1,000",
+                                    "readonly": false,
+                                    "value": "$1,000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "$5,000",
+                                    "readonly": false,
+                                    "value": "$5,000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "$7,500",
+                                    "readonly": false,
+                                    "value": "$7,500"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2gkUAC",
+                            "cloneable": true,
+                            "code": "Medical_annualOOP_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Annual OOP Limit",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "$1,500 Indiv | $3,000 Fam",
+                                    "readonly": false,
+                                    "value": "$1,500 Indiv | $3,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$1,750 Indiv | $3,500 Fam",
+                                    "readonly": false,
+                                    "value": "$1,750 Indiv | $3,500 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "$7,500 Indiv | $15,000 Fam",
+                                    "readonly": false,
+                                    "value": "$7,500 Indiv | $15,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "$10,000 Indiv | $25,000 Fam",
+                                    "readonly": false,
+                                    "value": "$10,000 Indiv | $25,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "$1,500",
+                                    "readonly": false,
+                                    "value": "$1,500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "$1,750",
+                                    "readonly": false,
+                                    "value": "$1,750"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "$7,500",
+                                    "readonly": false,
+                                    "value": "$7,500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "$10,000",
+                                    "readonly": false,
+                                    "value": "$10,000"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "Out-Of-Network",
+                            "attributeId": "a0S2E00000oY2gjUAC",
+                            "cloneable": true,
+                            "code": "Medical_annualDed_OON",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Annual Deductible",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "Not Covered",
+                                    "readonly": false,
+                                    "value": "Not Covered"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$1,000 Indiv | $2,000 Fam",
+                                    "readonly": false,
+                                    "value": "$1,000 Indiv | $2,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "$10,000 Indiv | $20,000 Fam",
+                                    "readonly": false,
+                                    "value": "$10,000 Indiv | $20,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "$2,000 Indiv | $4,000 Fam",
+                                    "readonly": false,
+                                    "value": "$2,000 Indiv | $4,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "$15,000 Indiv | $30,000 Fam",
+                                    "readonly": false,
+                                    "value": "$15,000 Indiv | $30,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "$1,000",
+                                    "readonly": false,
+                                    "value": "$1,000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "$10,000",
+                                    "readonly": false,
+                                    "value": "$10,000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "$2,000",
+                                    "readonly": false,
+                                    "value": "$2,000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "$15,000",
+                                    "readonly": false,
+                                    "value": "$15,000"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "Out-Of-Network",
+                            "attributeId": "a0S2E00000oY2glUAC",
+                            "cloneable": true,
+                            "code": "Medical_annualOOP_OON",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Annual OOP Limit",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "Not Covered",
+                                    "readonly": false,
+                                    "value": "Not Covered"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$3,500 Indiv | $7,000 Fam",
+                                    "readonly": false,
+                                    "value": "$3,500 Indiv | $7,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "$15,000 Indiv | $30,000 Fam",
+                                    "readonly": false,
+                                    "value": "$15,000 Indiv | $30,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "$3,000 Indiv | $6,000 Fam",
+                                    "readonly": false,
+                                    "value": "$3,000 Indiv | $6,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "$20,000 Indiv | $50,000 Fam",
+                                    "readonly": false,
+                                    "value": "$20,000 Indiv | $50,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "9",
+                                    "label": "$3,500",
+                                    "readonly": false,
+                                    "value": "$3,500"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "$15,000",
+                                    "readonly": false,
+                                    "value": "$15,000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "$3,000",
+                                    "readonly": false,
+                                    "value": "$3,000"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "$20,000",
+                                    "readonly": false,
+                                    "value": "$20,000"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2gmUAC",
+                            "cloneable": true,
+                            "code": "Medical_coinsurance_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Coinsurance",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "20% After Ded",
+                                    "readonly": false,
+                                    "value": "20% After Ded"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "30% After Ded",
+                                    "readonly": false,
+                                    "value": "30% After Ded"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "Out-Of-Network",
+                            "attributeId": "a0S2E00000oY2gnUAC",
+                            "cloneable": true,
+                            "code": "Medical_coinsurance_OON",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Coinsurance",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "Not Covered",
+                                    "readonly": false,
+                                    "value": "Not Covered"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "30% After Ded",
+                                    "readonly": false,
+                                    "value": "30% After Ded"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "40% After Ded",
+                                    "readonly": false,
+                                    "value": "40% After Ded"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "50% After Ded",
+                                    "readonly": false,
+                                    "value": "50% After Ded"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2gwUAC",
+                            "cloneable": true,
+                            "code": "Medical_lifetimeMax_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Lifetime Maximum",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "Unlimited",
+                                    "readonly": false,
+                                    "value": "Unlimited"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "Out-Of-Network",
+                            "attributeId": "a0S2E00000oY2gxUAC",
+                            "cloneable": true,
+                            "code": "Medical_lifetimeMax_OON",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Lifetime Maximum",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "Unlimited",
+                                    "readonly": false,
+                                    "value": "Unlimited"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2hGUAS",
+                            "cloneable": true,
+                            "code": "Medical_preventative_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 8,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Preventive Services",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "$0 Copay",
+                                    "readonly": false,
+                                    "value": "$0 Copay"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$0",
+                                    "readonly": false,
+                                    "value": "$0"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "Out-Of-Network",
+                            "attributeId": "a0S2E00000oY2hHUAS",
+                            "cloneable": true,
+                            "code": "Medical_preventative_OON",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 9,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Preventive Services",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "$0 Copay",
+                                    "readonly": false,
+                                    "value": "$0 Copay"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$0",
+                                    "readonly": false,
+                                    "value": "$0"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 10
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cdff74fc-8bf3-a49e-c93c-7367d8840e63",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "",
+    "%vlocity_namespace%__MarketSegment__c": "Individual;Medicare",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "",
+    "%vlocity_namespace%__RatingProcedureType__c": "",
+    "%vlocity_namespace%__RecordTypeName__c": "CoverageSpec",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Medical",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Medical Plan Information",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Medical-Plan-Information_PricebookEntries.json",
+    "ProductCode": "Medical_base",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "CoverageSpec",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/CoverageSpec",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Medical Plan Information",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "cdff74fc-8bf3-a49e-c93c-7367d8840e63",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "cdff74fc-8bf3-a49e-c93c-7367d8840e63",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/cdff74fc-8bf3-a49e-c93c-7367d8840e63",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "Medical_base",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/cdff74fc-8bf3-a49e-c93c-7367d8840e63"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/cdff74fc-8bf3-a49e-c93c-7367d8840e63"
+}

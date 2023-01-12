@@ -1,0 +1,396 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Chronic-Condition-SNP-C-SNP_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "Medical_OverallStarR": "3",
+        "Medical_annualDed_INN": "$0",
+        "Medical_annualOOP_INN": "$6,700",
+        "Medical_coinsurance_INN": "33% Coinsurance",
+        "Medical_preventative_INN": "$0 copay",
+        "Medical_primaryCare_INN": "$10 copay",
+        "Medical_specialist_INN": "$50 copay",
+        "Plan_Description": "SNPs are for people who receive both Medicare and Medicaid. As a member of a SNP, you will need to choose a primary care physician and generally must get your care and services from providers in the plan's network.",
+        "Rating_ProductCode": "H2812-002"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "MED_Medical",
+                "Name": "Medical Benefits",
+                "displaySequence": 2000,
+                "id": "a0R2E00000JuU3BUAV",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2giUAC",
+                            "cloneable": true,
+                            "code": "Medical_annualDed_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Deductible",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2gkUAC",
+                            "cloneable": true,
+                            "code": "Medical_annualOOP_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Out Of Pocket",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2hIUAS",
+                            "cloneable": true,
+                            "code": "Medical_primaryCare_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Office Visit",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2hGUAS",
+                            "cloneable": true,
+                            "code": "Medical_preventative_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Preventive Services",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2hMUAS",
+                            "cloneable": true,
+                            "code": "Medical_specialist_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Specialist",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2gmUAC",
+                            "cloneable": true,
+                            "code": "Medical_coinsurance_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Coinsurance",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JT6UAM",
+                            "cloneable": true,
+                            "code": "Plan_Description",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Plan Description",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JT3UAM",
+                            "cloneable": true,
+                            "code": "Medical_OverallStarR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 8,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Star Rating",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 8
+                }
+            },
+            {
+                "Code__c": "ProductRating",
+                "Name": "Product Rating",
+                "displaySequence": 2150,
+                "id": "a0R2E00000JuU3DUAV",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0S2E00000oY2iDUAS",
+                            "cloneable": true,
+                            "code": "Rating_ProductCode",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "Chronic-Condition-SNP-C-SNP_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2020-08-12",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "2023-04-14",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2021-08-13T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "5fc2dd50-e2d8-db40-30b4-67b966d45549",
+    "%vlocity_namespace%__GlobalKey__c": "5db08916-371f-ce7f-0bb3-64942b0f38ec",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"05/13/20\"},\"inputs\":{\"01t4P00000AZFbHQAX\":{\"a0A4P00002HWs1UUAT\":{\"count\":5,\"attributeCode\":\"Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"ProductCode\",\"attributeDataType\":\"Number\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":\"H2812-002\"},\"productName\":\"Member\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"MedicareMember\",\"isOptional\":false,\"pciId\":\"a2z4P000003hQ2kQAE\",\"a0A4P00002HWs1VUAT\":{\"count\":4,\"attributeCode\":\"Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002NjFceUAF\":{\"count\":3,\"attributeCode\":\"Location\",\"attributeLabel\":\"Location\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Location\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002HWs1bUAD\":{\"count\":2,\"attributeCode\":\"Id\",\"attributeLabel\":\"MemberId\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"MemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002HWs1ZUAT\":{\"count\":1,\"attributeCode\":\"Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Medicare",
+    "%vlocity_namespace%__MarketSegment__c": "Medicare",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "Chronic-Condition-SNP-C-SNP_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "MedicareSNPBasePremium__Price",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Chronic-Condition-SNP-C-SNP_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "SmallGroupHLSMedicalProductsRatingExpSet",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2023-04-13T18:30:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2020-08-11T18:30:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "SNP",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Medical",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "SNPs are for people who receive both Medicare and Medicaid (dual-eligible beneficiaries), live in an institution, or who have certain chronic conditions. As a member of a SNP, you will need to choose a primary care physician and generally must get your care and services from providers in the plan's network. Some plans provide out-of-network coverage, usually at a higher cost. SNP plans may include drug coverage. A SNP may be right for you if you meet the criteria for the SNP plan.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Chronic Condition SNP (C-SNP)",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Chronic-Condition-SNP-C-SNP_PricebookEntries.json",
+    "ProductCode": "MC-MED-H2812-002",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Chronic Condition SNP (C-SNP)",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "5db08916-371f-ce7f-0bb3-64942b0f38ec",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "5db08916-371f-ce7f-0bb3-64942b0f38ec",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/5db08916-371f-ce7f-0bb3-64942b0f38ec",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "MC-MED-H2812-002",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/5db08916-371f-ce7f-0bb3-64942b0f38ec"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/5db08916-371f-ce7f-0bb3-64942b0f38ec"
+}

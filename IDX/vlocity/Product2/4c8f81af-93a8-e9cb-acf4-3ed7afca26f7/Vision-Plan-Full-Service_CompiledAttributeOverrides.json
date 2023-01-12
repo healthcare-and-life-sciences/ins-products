@@ -1,0 +1,350 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "SG_cont_lens": "$130",
+            "SG_frame_bene": "$175"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "SG_Vision",
+                    "Name": "SG Vision",
+                    "displaySequence": 16,
+                    "id": "a0B4P00001TVpaXUAT",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0C4P00000sGRMtUAO",
+                                "cloneable": true,
+                                "code": "SG_cont_lens",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Contact Lens Benefit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "$130",
+                                        "readonly": false,
+                                        "value": "$130"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "$150",
+                                        "readonly": false,
+                                        "value": "$150"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "$175",
+                                        "readonly": false,
+                                        "value": "$175"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0C4P00000sGRMuUAO",
+                                "cloneable": true,
+                                "code": "SG_frame_bene",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Frame Benefit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "$130",
+                                        "readonly": false,
+                                        "value": "$130"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "$150",
+                                        "readonly": false,
+                                        "value": "$150"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "$175",
+                                        "readonly": false,
+                                        "value": "$175"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2bf08877-c33b-5348-ad8f-23355c82229b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/2bf08877-c33b-5348-ad8f-23355c82229b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "4c8f81af-93a8-e9cb-acf4-3ed7afca26f7",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/4c8f81af-93a8-e9cb-acf4-3ed7afca26f7",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1272850995"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "SG_cont_lens": "Bi-annual",
+            "SG_eye_exam_freq": "Bi-annual",
+            "SG_frame_freq": "Bi-annual",
+            "SG_lens_freq": "Bi-annual"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "SG_Vision",
+                    "Name": "SG Vision",
+                    "displaySequence": 16,
+                    "id": "a0B4P00001TVpaXUAT",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0C4P00000sGRMtUAO",
+                                "cloneable": true,
+                                "code": "SG_cont_lens",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Contact Lens Benefit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "Annual",
+                                        "readonly": false,
+                                        "value": "Annual"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Bi-annual",
+                                        "readonly": false,
+                                        "value": "Bi-annual"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0C4P00000sGRMxUAO",
+                                "cloneable": true,
+                                "code": "SG_eye_exam_freq",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 6,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Eye Exam Frequency",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "Annual",
+                                        "readonly": false,
+                                        "value": "Annual"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Bi-annual",
+                                        "readonly": false,
+                                        "value": "Bi-annual"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0C4P00000sGRMyUAO",
+                                "cloneable": true,
+                                "code": "SG_frame_freq",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 7,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Frame Frequency",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "Annual",
+                                        "readonly": false,
+                                        "value": "Annual"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Bi-annual",
+                                        "readonly": false,
+                                        "value": "Bi-annual"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0C4P00000sGRMwUAO",
+                                "cloneable": true,
+                                "code": "SG_lens_freq",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 8,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Lens Frequency",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "Annual",
+                                        "readonly": false,
+                                        "value": "Annual"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "Bi-annual",
+                                        "readonly": false,
+                                        "value": "Bi-annual"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 4
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9e9778a7-f294-8681-41ea-042d12f2b610",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/9e9778a7-f294-8681-41ea-042d12f2b610",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "4c8f81af-93a8-e9cb-acf4-3ed7afca26f7",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/4c8f81af-93a8-e9cb-acf4-3ed7afca26f7",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated4446893"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Dental Plan Classic",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "f9be4f00-7a6a-d834-d467-e39055a6b453",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "f9be4f00-7a6a-d834-d467-e39055a6b453",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/f9be4f00-7a6a-d834-d467-e39055a6b453",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "SG-DNT-CLS",
+        "UnitPrice": 150,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/f9be4f00-7a6a-d834-d467-e39055a6b453"
+    },
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Dental Plan Classic",
+        "Pricebook2.Name": "Standard",
+        "Pricebook2Id": {
+            "Name": "Standard",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "f9be4f00-7a6a-d834-d467-e39055a6b453",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "f9be4f00-7a6a-d834-d467-e39055a6b453",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/f9be4f00-7a6a-d834-d467-e39055a6b453",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "SG-DNT-CLS",
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard/Product2/f9be4f00-7a6a-d834-d467-e39055a6b453"
+    }
+]

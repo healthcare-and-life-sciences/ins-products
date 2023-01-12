@@ -1,0 +1,1012 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": "",
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": "",
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppNoCovMedicare\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDpQAM\",\"attributeid__c\":\"a0S2E00000x3JSVUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI9UAJ\",\"categorycode__c\":\"MedSuppNoCovMedicare\",\"categoryname__c\":\"Foreign Travel\",\"attributeuniquecode__c\":\"MedSuppNoCovMed_First\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"First $250 each calendar year\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":8000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYufUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDpQAM\",\"attributeid__c\":\"a0S2E00000x3JSWUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI9UAJ\",\"categorycode__c\":\"MedSuppNoCovMedicare\",\"categoryname__c\":\"Foreign Travel\",\"attributeuniquecode__c\":\"MedSuppNoCovMed_Rem\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"200\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Remainder of charges\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":8000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYugUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": "",
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1628386425"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppNoCovMed_First": "$0",
+            "MedSuppNoCovMed_Rem": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppNoCovMedicare",
+                    "Name": "Foreign Travel",
+                    "displaySequence": 8000,
+                    "id": "a0R2E00000MbtI9UAJ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSVUA2",
+                                "cloneable": true,
+                                "code": "MedSuppNoCovMed_First",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "First $250 each calendar year",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSWUA2",
+                                "cloneable": true,
+                                "code": "MedSuppNoCovMed_Rem",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 200,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Remainder of charges",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppNoCovMedicare\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDpQAM\",\"attributeid__c\":\"a0S2E00000x3JSVUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI9UAJ\",\"categorycode__c\":\"MedSuppNoCovMedicare\",\"categoryname__c\":\"Foreign Travel\",\"attributeuniquecode__c\":\"MedSuppNoCovMed_First\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"First $250 each calendar year\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":8000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYufUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDpQAM\",\"attributeid__c\":\"a0S2E00000x3JSWUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI9UAJ\",\"categorycode__c\":\"MedSuppNoCovMedicare\",\"categoryname__c\":\"Foreign Travel\",\"attributeuniquecode__c\":\"MedSuppNoCovMed_Rem\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"200\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Remainder of charges\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":8000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYugUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c484bb3b-f260-cda5-08af-303d574b0bf3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/c484bb3b-f260-cda5-08af-303d574b0bf3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-169256172"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartAB_3pints": "$0",
+            "MedSuppPartAB_Next": "$0",
+            "MedSuppPartAB_Rem": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartA_Blood",
+                    "Name": "Blood",
+                    "displaySequence": 7300,
+                    "id": "a0R2E00000MbtIBUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSYUA2",
+                                "cloneable": true,
+                                "code": "MedSuppPartAB_3pints",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "First 3 pints",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSZUA2",
+                                "cloneable": true,
+                                "code": "MedSuppPartAB_Next",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 300,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Next $147 of Medicare-approved amounts",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSaUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartAB_Rem",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 400,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Remainder of Medicare-approved amounts",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 3
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartA_Blood\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDrQAM\",\"attributeid__c\":\"a0S2E00000x3JSYUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtIBUAZ\",\"categorycode__c\":\"MedSuppPartA_Blood\",\"categoryname__c\":\"Blood\",\"attributeuniquecode__c\":\"MedSuppPartAB_3pints\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"First 3 pints\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7300,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYujUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDrQAM\",\"attributeid__c\":\"a0S2E00000x3JSZUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtIBUAZ\",\"categorycode__c\":\"MedSuppPartA_Blood\",\"categoryname__c\":\"Blood\",\"attributeuniquecode__c\":\"MedSuppPartAB_Next\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"300\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Next $147 of Medicare-approved amounts\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7300,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYulUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDrQAM\",\"attributeid__c\":\"a0S2E00000x3JSaUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIBUAZ\",\"categorycode__c\":\"MedSuppPartA_Blood\",\"categoryname__c\":\"Blood\",\"attributeuniquecode__c\":\"MedSuppPartAB_Rem\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"400\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Remainder of Medicare-approved amounts\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7300,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYumUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d57d1c62-8c41-3741-62ec-9902b18ece38",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/d57d1c62-8c41-3741-62ec-9902b18ece38",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1569193063"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartAB_3pints": "$0",
+            "MedSuppPartA_PintAM": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartA_Blood",
+                    "Name": "Blood",
+                    "displaySequence": 7300,
+                    "id": "a0R2E00000MbtIBUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSYUA2",
+                                "cloneable": true,
+                                "code": "MedSuppPartAB_3pints",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "First 3 pints",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSbUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_PintAM",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 200,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Additional Amounts",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartA_Blood\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDhQAM\",\"attributeid__c\":\"a0S2E00000x3JSYUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtIBUAZ\",\"categorycode__c\":\"MedSuppPartA_Blood\",\"categoryname__c\":\"Blood\",\"attributeuniquecode__c\":\"MedSuppPartAB_3pints\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"First 3 pints\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7300,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYukUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDhQAM\",\"attributeid__c\":\"a0S2E00000x3JSbUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIBUAZ\",\"categorycode__c\":\"MedSuppPartA_Blood\",\"categoryname__c\":\"Blood\",\"attributeuniquecode__c\":\"MedSuppPartA_PintAM\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"200\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Additional Amounts\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7300,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuiUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "29f2133d-2a40-c03e-51e6-7b12e395669f",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/29f2133d-2a40-c03e-51e6-7b12e395669f",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1245353007"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartAB_First147": "$0",
+            "MedSuppPartAB_RemAM": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "b1f4b0fd-1336-dd2c-0412-a62f82dbf11f",
+                    "Name": "Durable Medical Equipment",
+                    "displaySequence": 7900,
+                    "id": "a0R2E00000MbtI6UAJ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3Ii4UAE",
+                                "cloneable": true,
+                                "code": "MedSuppPartAB_First147",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "First $147 of Medicare-approved amounts",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3Ii5UAE",
+                                "cloneable": true,
+                                "code": "MedSuppPartAB_RemAM",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 200,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Remainder of Medicare-approved amounts",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"b1f4b0fd-1336-dd2c-0412-a62f82dbf11f\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDgQAM\",\"attributeid__c\":\"a0S2E00000x3Ii4UAE\",\"attributecategoryid__c\":\"a0R2E00000MbtI6UAJ\",\"categorycode__c\":\"b1f4b0fd-1336-dd2c-0412-a62f82dbf11f\",\"categoryname__c\":\"Durable Medical Equipment\",\"attributeuniquecode__c\":\"MedSuppPartAB_First147\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"First $147 of Medicare-approved amounts\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7900,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYv7UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDgQAM\",\"attributeid__c\":\"a0S2E00000x3Ii5UAE\",\"attributecategoryid__c\":\"a0R2E00000MbtI6UAJ\",\"categorycode__c\":\"b1f4b0fd-1336-dd2c-0412-a62f82dbf11f\",\"categoryname__c\":\"Durable Medical Equipment\",\"attributeuniquecode__c\":\"MedSuppPartAB_RemAM\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"200\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Remainder of Medicare-approved amounts\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7900,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYv8UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "04da42c8-326f-b2d6-9dfb-d97d9bca6adc",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/04da42c8-326f-b2d6-9dfb-d97d9bca6adc",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-525268819"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartAB_MedAS": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartAB_HomeHC",
+                    "Name": "Home Health Care",
+                    "displaySequence": 7800,
+                    "id": "a0R2E00000MbtIAUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSXUA2",
+                                "cloneable": true,
+                                "code": "MedSuppPartAB_MedAS",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Medicare Approved Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 1
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartAB_HomeHC\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDlQAM\",\"attributeid__c\":\"a0S2E00000x3JSXUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtIAUAZ\",\"categorycode__c\":\"MedSuppPartAB_HomeHC\",\"categoryname__c\":\"Home Health Care\",\"attributeuniquecode__c\":\"MedSuppPartAB_MedAS\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Medicare Approved Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7800,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuhUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9e4f76f5-0e6d-267c-2fed-b52206590211",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/9e4f76f5-0e6d-267c-2fed-b52206590211",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated539900101"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartA_101": "All costs",
+            "MedSuppPartA_21100": "$0",
+            "MedSuppPartA_F20": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartA_SkilledNursing",
+                    "Name": "Skilled Nursing Facility Care",
+                    "displaySequence": 7200,
+                    "id": "a0R2E00000MbtIEUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSkUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_F20",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "First 20 days",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSjUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_21100",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 200,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "21st through 100th day",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSiUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_101",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 300,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "101st day and after",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 3
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartA_SkilledNursing\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDoQAM\",\"attributeid__c\":\"a0S2E00000x3JSkUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIEUAZ\",\"categorycode__c\":\"MedSuppPartA_SkilledNursing\",\"categoryname__c\":\"Skilled Nursing Facility Care\",\"attributeuniquecode__c\":\"MedSuppPartA_F20\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"First 20 days\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7200,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuvUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDoQAM\",\"attributeid__c\":\"a0S2E00000x3JSjUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIEUAZ\",\"categorycode__c\":\"MedSuppPartA_SkilledNursing\",\"categoryname__c\":\"Skilled Nursing Facility Care\",\"attributeuniquecode__c\":\"MedSuppPartA_21100\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"200\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"21st through 100th day\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7200,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuuUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDoQAM\",\"attributeid__c\":\"a0S2E00000x3JSiUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIEUAZ\",\"categorycode__c\":\"MedSuppPartA_SkilledNursing\",\"categoryname__c\":\"Skilled Nursing Facility Care\",\"attributeuniquecode__c\":\"MedSuppPartA_101\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"300\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"101st day and after\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7200,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYutUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"All costs\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"All costs\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ba878ced-8b2b-f2c9-485b-50f4d2a7e9f6",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/ba878ced-8b2b-f2c9-485b-50f4d2a7e9f6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1711593290"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartA_365": "$0",
+            "MedSuppPartA_365plus": "All costs",
+            "MedSuppPartA_60": "$0",
+            "MedSuppPartA_6190": "$0",
+            "MedSuppPartA_91": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartA_Hospitalizations",
+                    "Name": "Hospitalization",
+                    "displaySequence": 7100,
+                    "id": "a0R2E00000MbtIDUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSfUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_60",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "First 60 days",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSgUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_6190",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 200,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "61st through 90th day",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JShUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_91",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 300,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "91st day and after",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSdUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_365",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 400,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Additional 365 days",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSeUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_365plus",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 500,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Beyond the additional 365 days",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 5
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartA_Hospitalizations\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDnQAM\",\"attributeid__c\":\"a0S2E00000x3JSfUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIDUAZ\",\"categorycode__c\":\"MedSuppPartA_Hospitalizations\",\"categoryname__c\":\"Hospitalization\",\"attributeuniquecode__c\":\"MedSuppPartA_60\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"First 60 days\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7100,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYusUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDnQAM\",\"attributeid__c\":\"a0S2E00000x3JSgUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIDUAZ\",\"categorycode__c\":\"MedSuppPartA_Hospitalizations\",\"categoryname__c\":\"Hospitalization\",\"attributeuniquecode__c\":\"MedSuppPartA_6190\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"200\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"61st through 90th day\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7100,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuoUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDnQAM\",\"attributeid__c\":\"a0S2E00000x3JShUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIDUAZ\",\"categorycode__c\":\"MedSuppPartA_Hospitalizations\",\"categoryname__c\":\"Hospitalization\",\"attributeuniquecode__c\":\"MedSuppPartA_91\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"300\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"91st day and after\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7100,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYupUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDnQAM\",\"attributeid__c\":\"a0S2E00000x3JSdUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIDUAZ\",\"categorycode__c\":\"MedSuppPartA_Hospitalizations\",\"categoryname__c\":\"Hospitalization\",\"attributeuniquecode__c\":\"MedSuppPartA_365\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"400\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Additional 365 days\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7100,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuqUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDnQAM\",\"attributeid__c\":\"a0S2E00000x3JSeUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIDUAZ\",\"categorycode__c\":\"MedSuppPartA_Hospitalizations\",\"categoryname__c\":\"Hospitalization\",\"attributeuniquecode__c\":\"MedSuppPartA_365plus\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"500\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Beyond the additional 365 days\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7100,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYurUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"All costs\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"All costs\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a942db0b-b24a-6ca4-f200-9ca6819fb716",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/a942db0b-b24a-6ca4-f200-9ca6819fb716",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1166811782"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartA_Hospice": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartA_HospiceCare",
+                    "Name": "Hospice Care",
+                    "displaySequence": 7400,
+                    "id": "a0R2E00000MbtICUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JScUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartA_Hospice",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Hospice Care",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 1
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartA_HospiceCare\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDjQAM\",\"attributeid__c\":\"a0S2E00000x3JScUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtICUAZ\",\"categorycode__c\":\"MedSuppPartA_HospiceCare\",\"categoryname__c\":\"Hospice Care\",\"attributeuniquecode__c\":\"MedSuppPartA_Hospice\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Hospice Care\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7400,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYunUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "71b91bc0-8d8e-989d-e947-d09e150b24cd",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/71b91bc0-8d8e-989d-e947-d09e150b24cd",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-612598728"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartB_147": "$0",
+            "MedSuppPartB_Rem": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartB_MedExp",
+                    "Name": "Medical Expenses",
+                    "displaySequence": 7500,
+                    "id": "a0R2E00000MbtIHUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSnUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartB_147",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "First $147 of Medicare-approved amounts",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSoUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartB_Rem",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 200,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Remainder of Medicare-approved amounts",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartB_MedExp\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDmQAM\",\"attributeid__c\":\"a0S2E00000x3JSnUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIHUAZ\",\"categorycode__c\":\"MedSuppPartB_MedExp\",\"categoryname__c\":\"Medical Expenses\",\"attributeuniquecode__c\":\"MedSuppPartB_147\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"First $147 of Medicare-approved amounts\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7500,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuyUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDmQAM\",\"attributeid__c\":\"a0S2E00000x3JSoUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIHUAZ\",\"categorycode__c\":\"MedSuppPartB_MedExp\",\"categoryname__c\":\"Medical Expenses\",\"attributeuniquecode__c\":\"MedSuppPartB_Rem\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"200\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Remainder of Medicare-approved amounts\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7500,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuzUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9eedfab2-de76-c327-9a26-186a2cabea62",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/9eedfab2-de76-c327-9a26-186a2cabea62",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated473600629"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartB_Excess": "All costs"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartB_Excess",
+                    "Name": "Part B Excess Charges",
+                    "displaySequence": 7600,
+                    "id": "a0R2E00000MbtIGUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSmUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartB_Excess",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Part B Excess Charges",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 1
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartB_Excess\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDiQAM\",\"attributeid__c\":\"a0S2E00000x3JSmUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIGUAZ\",\"categorycode__c\":\"MedSuppPartB_Excess\",\"categoryname__c\":\"Part B Excess Charges\",\"attributeuniquecode__c\":\"MedSuppPartB_Excess\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Part B Excess Charges\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7600,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuxUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"All costs\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"All costs\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "55c959ca-d22d-33a6-1af6-34324e0dcc13",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/55c959ca-d22d-33a6-1af6-34324e0dcc13",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-643886101"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "MedSuppPartB_TestLab": "$0"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MedSuppPartB_Clinical",
+                    "Name": "Clinical Laboratory Services",
+                    "displaySequence": 7700,
+                    "id": "a0R2E00000MbtIFUAZ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSlUAM",
+                                "cloneable": true,
+                                "code": "MedSuppPartB_TestLab",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 100,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Clinical Laboratory Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 1
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MedSuppPartB_Clinical\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIDkQAM\",\"attributeid__c\":\"a0S2E00000x3JSlUAM\",\"attributecategoryid__c\":\"a0R2E00000MbtIFUAZ\",\"categorycode__c\":\"MedSuppPartB_Clinical\",\"categoryname__c\":\"Clinical Laboratory Services\",\"attributeuniquecode__c\":\"MedSuppPartB_TestLab\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"100\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Clinical Laboratory Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":7700,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYuwUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"$0\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"$0\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "8067ce0c-b77c-da22-d783-fc01b457e737",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/8067ce0c-b77c-da22-d783-fc01b457e737",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/856fb88a-e7d7-adb3-12a3-cc56dd11c3da",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-1187764352"
+    }
+]

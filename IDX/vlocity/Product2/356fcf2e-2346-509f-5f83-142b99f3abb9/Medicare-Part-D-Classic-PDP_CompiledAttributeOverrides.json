@@ -1,0 +1,847 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": "",
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": "",
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MEDICAREPARTD\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC6QAM\",\"attributeid__c\":\"a0S2E00000x3JSNUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPGenericDrugs\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Generic Drugs\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYnxUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Greater of 5% coinsurance or $3.60 copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Greater of 5% coinsurance or $3.60 copay\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC6QAM\",\"attributeid__c\":\"a0S2E00000x3JSLUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPBrandNameDrugs\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Brand-Name Drugs\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYnvUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Greater of 5% coinsurance or $8.95 copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Greater of 5% coinsurance or $8.95 copay\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": "",
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1445320755"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "PDPBrandNameDrugs": "25% coinsurance",
+            "PDPGenericDrugs": "25% coinsurance"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MEDICAREPARTD",
+                    "Name": "Medicare Part D Benefits",
+                    "displaySequence": 69,
+                    "id": "a0R2E00000MbtI8UAJ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSNUA2",
+                                "cloneable": true,
+                                "code": "PDPGenericDrugs",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Generic Drugs",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSLUA2",
+                                "cloneable": true,
+                                "code": "PDPBrandNameDrugs",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Brand-Name Drugs",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MEDICAREPARTD\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC9QAM\",\"attributeid__c\":\"a0S2E00000x3JSNUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPGenericDrugs\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Generic Drugs\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYnyUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"25% coinsurance\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"25% coinsurance\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC9QAM\",\"attributeid__c\":\"a0S2E00000x3JSLUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPBrandNameDrugs\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Brand-Name Drugs\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYnwUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"25% coinsurance\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"25% coinsurance\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "fe94d277-fc0b-9798-233f-8e0c0608f17c",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/fe94d277-fc0b-9798-233f-8e0c0608f17c",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated788243034"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "PDPBrandNameDrugs": "Greater of 5% coinsurance or $8.95 copay",
+            "PDPGenericDrugs": "Greater of 5% coinsurance or $3.60 copay"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MEDICAREPARTD",
+                    "Name": "Medicare Part D Benefits",
+                    "displaySequence": 69,
+                    "id": "a0R2E00000MbtI8UAJ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSNUA2",
+                                "cloneable": true,
+                                "code": "PDPGenericDrugs",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Generic Drugs",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSLUA2",
+                                "cloneable": true,
+                                "code": "PDPBrandNameDrugs",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Brand-Name Drugs",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MEDICAREPARTD\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC6QAM\",\"attributeid__c\":\"a0S2E00000x3JSNUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPGenericDrugs\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Generic Drugs\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYnxUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Greater of 5% coinsurance or $3.60 copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Greater of 5% coinsurance or $3.60 copay\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC6QAM\",\"attributeid__c\":\"a0S2E00000x3JSLUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPBrandNameDrugs\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Brand-Name Drugs\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYnvUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Greater of 5% coinsurance or $8.95 copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Greater of 5% coinsurance or $8.95 copay\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "cc29c0b1-a439-0b8d-d763-9e229b51dd63",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/cc29c0b1-a439-0b8d-d763-9e229b51dd63",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-737212091"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "PDPTier1": "$0.00 copay no deductible (30-day supply). $0.00 copay no deductible (90-day supply)",
+            "PDPTier2": "$8.00 copay no deductible (30-day supply). $24.00 copay no deductible (90-day supply)",
+            "PDPTier3": "$40.00 copay after deductible (30-day supply). $120.00 copay after deductible (90-day supply)",
+            "PDPTier4": "48% coinsurance after deductible (30-day supply). 48% coinsurance after deductible (90-day supply)",
+            "PDPTier5": "23% coinsurance after deductible (30-day supply)"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MEDICAREPARTD",
+                    "Name": "Medicare Part D Benefits",
+                    "displaySequence": 69,
+                    "id": "a0R2E00000MbtI8UAJ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSQUA2",
+                                "cloneable": true,
+                                "code": "PDPTier1",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 1",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSRUA2",
+                                "cloneable": true,
+                                "code": "PDPTier2",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 2",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSSUA2",
+                                "cloneable": true,
+                                "code": "PDPTier3",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 3",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSTUA2",
+                                "cloneable": true,
+                                "code": "PDPTier4",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 4",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSUUA2",
+                                "cloneable": true,
+                                "code": "PDPTier5",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 5",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 5
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MEDICAREPARTD\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC3QAM\",\"attributeid__c\":\"a0S2E00000x3JSQUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier1\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 1\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo0UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$0.00 copay no deductible (30-day supply). $0.00 copay no deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$0.00 copay no deductible (30-day supply). $0.00 copay no deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC3QAM\",\"attributeid__c\":\"a0S2E00000x3JSRUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier2\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 2\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo6UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$8.00 copay no deductible (30-day supply). $24.00 copay no deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$8.00 copay no deductible (30-day supply). $24.00 copay no deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC3QAM\",\"attributeid__c\":\"a0S2E00000x3JSSUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier3\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 3\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo8UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$40.00 copay after deductible (30-day supply). $120.00 copay after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$40.00 copay after deductible (30-day supply). $120.00 copay after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC3QAM\",\"attributeid__c\":\"a0S2E00000x3JSTUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier4\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 4\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoCUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"48% coinsurance after deductible (30-day supply). 48% coinsurance after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"48% coinsurance after deductible (30-day supply). 48% coinsurance after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC3QAM\",\"attributeid__c\":\"a0S2E00000x3JSUUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier5\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 5\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoFUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"23% coinsurance after deductible (30-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"23% coinsurance after deductible (30-day supply)\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0ee3de05-9a69-f69c-ec2d-1f4195df8af4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/0ee3de05-9a69-f69c-ec2d-1f4195df8af4",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1202285140"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "PDPTier1": "$0.00 copay no deductible (30-day supply). $0.00 copay no deductible (90-day supply)",
+            "PDPTier2": "$8.00 copay no deductible (30-day supply). $24.00 copay no deductible (90-day supply)",
+            "PDPTier3": "$40.00 copay after deductible (30-day supply). $120.00 copay after deductible (90-day supply)",
+            "PDPTier4": "48% coinsurance after deductible (30-day supply). 48% coinsurance after deductible (90-day supply)",
+            "PDPTier5": "23% coinsurance after deductible (30-day supply)"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MEDICAREPARTD",
+                    "Name": "Medicare Part D Benefits",
+                    "displaySequence": 69,
+                    "id": "a0R2E00000MbtI8UAJ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSQUA2",
+                                "cloneable": true,
+                                "code": "PDPTier1",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 1",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSRUA2",
+                                "cloneable": true,
+                                "code": "PDPTier2",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 2",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSSUA2",
+                                "cloneable": true,
+                                "code": "PDPTier3",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 3",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSTUA2",
+                                "cloneable": true,
+                                "code": "PDPTier4",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 4",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSUUA2",
+                                "cloneable": true,
+                                "code": "PDPTier5",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 5",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 5
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MEDICAREPARTD\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC7QAM\",\"attributeid__c\":\"a0S2E00000x3JSQUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier1\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 1\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYnzUAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$0.00 copay no deductible (30-day supply). $0.00 copay no deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$0.00 copay no deductible (30-day supply). $0.00 copay no deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC7QAM\",\"attributeid__c\":\"a0S2E00000x3JSRUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier2\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 2\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo5UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$8.00 copay no deductible (30-day supply). $24.00 copay no deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$8.00 copay no deductible (30-day supply). $24.00 copay no deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC7QAM\",\"attributeid__c\":\"a0S2E00000x3JSSUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier3\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 3\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo7UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$40.00 copay after deductible (30-day supply). $120.00 copay after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$40.00 copay after deductible (30-day supply). $120.00 copay after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC7QAM\",\"attributeid__c\":\"a0S2E00000x3JSTUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier4\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 4\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoEUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"48% coinsurance after deductible (30-day supply). 48% coinsurance after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"48% coinsurance after deductible (30-day supply). 48% coinsurance after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC7QAM\",\"attributeid__c\":\"a0S2E00000x3JSUUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier5\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 5\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoGUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"23% coinsurance after deductible (30-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"23% coinsurance after deductible (30-day supply)\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "da93f5d4-5b44-c466-34d1-874680ba2f1f",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/da93f5d4-5b44-c466-34d1-874680ba2f1f",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated977446134"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "PDPTier1": "$6.00 copay no deductible (30-day supply). $18.00 copay no deductible (90-day supply)",
+            "PDPTier2": "$10.00 copay no deductible (30-day supply). $30.00 copay no deductible (90-day supply)",
+            "PDPTier3": "$48.00 copay after deductible (30-day supply). $144.00 copay after deductible (90-day supply)",
+            "PDPTier4": "49% coinsurance after deductible (30-day supply). 49% coinsurance after deductible (90-day supply)",
+            "PDPTier5": "23% coinsurance after deductible (30-day supply). 23% coinsurance after deductible (90-day supply)"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MEDICAREPARTD",
+                    "Name": "Medicare Part D Benefits",
+                    "displaySequence": 69,
+                    "id": "a0R2E00000MbtI8UAJ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSQUA2",
+                                "cloneable": true,
+                                "code": "PDPTier1",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 1",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSRUA2",
+                                "cloneable": true,
+                                "code": "PDPTier2",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 2",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSSUA2",
+                                "cloneable": true,
+                                "code": "PDPTier3",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 3",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSTUA2",
+                                "cloneable": true,
+                                "code": "PDPTier4",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 4",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSUUA2",
+                                "cloneable": true,
+                                "code": "PDPTier5",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 5",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 5
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MEDICAREPARTD\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC5QAM\",\"attributeid__c\":\"a0S2E00000x3JSQUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier1\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 1\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo1UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$6.00 copay no deductible (30-day supply). $18.00 copay no deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$6.00 copay no deductible (30-day supply). $18.00 copay no deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC5QAM\",\"attributeid__c\":\"a0S2E00000x3JSRUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier2\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 2\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo4UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$10.00 copay no deductible (30-day supply). $30.00 copay no deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$10.00 copay no deductible (30-day supply). $30.00 copay no deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC5QAM\",\"attributeid__c\":\"a0S2E00000x3JSSUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier3\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 3\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo9UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$48.00 copay after deductible (30-day supply). $144.00 copay after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$48.00 copay after deductible (30-day supply). $144.00 copay after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC5QAM\",\"attributeid__c\":\"a0S2E00000x3JSTUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier4\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 4\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoDUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"49% coinsurance after deductible (30-day supply). 49% coinsurance after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"49% coinsurance after deductible (30-day supply). 49% coinsurance after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC5QAM\",\"attributeid__c\":\"a0S2E00000x3JSUUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier5\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 5\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoHUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"23% coinsurance after deductible (30-day supply). 23% coinsurance after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"23% coinsurance after deductible (30-day supply). 23% coinsurance after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b089a55a-094c-2108-c24b-b76de3c63e3d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/b089a55a-094c-2108-c24b-b76de3c63e3d",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1439899772"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "PDPTier1": "$6.00 copay no deductible (30-day supply). $18.00 copay no deductible (90-day supply)",
+            "PDPTier2": "$10.00 copay no deductible (30-day supply). $30.00 copay no deductible (90-day supply)",
+            "PDPTier3": "$48.00 copay after deductible (30-day supply). $144.00 copay after deductible (90-day supply)",
+            "PDPTier4": "49% coinsurance after deductible (30-day supply). 49% coinsurance after deductible (90-day supply)",
+            "PDPTier5": "23% coinsurance after deductible (30-day supply). 23% coinsurance after deductible (90-day supply)"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MEDICAREPARTD",
+                    "Name": "Medicare Part D Benefits",
+                    "displaySequence": 69,
+                    "id": "a0R2E00000MbtI8UAJ",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeId": "a0S2E00000x3JSQUA2",
+                                "cloneable": true,
+                                "code": "PDPTier1",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 1",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSRUA2",
+                                "cloneable": true,
+                                "code": "PDPTier2",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 2",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSSUA2",
+                                "cloneable": true,
+                                "code": "PDPTier3",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 3",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSTUA2",
+                                "cloneable": true,
+                                "code": "PDPTier4",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 4",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0S2E00000x3JSUUA2",
+                                "cloneable": true,
+                                "code": "PDPTier5",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "textarea",
+                                "isNotTranslatable": false,
+                                "label": "Tier 5",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 5
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MEDICAREPARTD\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC8QAM\",\"attributeid__c\":\"a0S2E00000x3JSQUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier1\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 1\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo2UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$6.00 copay no deductible (30-day supply). $18.00 copay no deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$6.00 copay no deductible (30-day supply). $18.00 copay no deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC8QAM\",\"attributeid__c\":\"a0S2E00000x3JSRUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier2\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 2\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYo3UAH\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$10.00 copay no deductible (30-day supply). $30.00 copay no deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$10.00 copay no deductible (30-day supply). $30.00 copay no deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC8QAM\",\"attributeid__c\":\"a0S2E00000x3JSSUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier3\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 3\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoAUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"$48.00 copay after deductible (30-day supply). $144.00 copay after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"$48.00 copay after deductible (30-day supply). $144.00 copay after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC8QAM\",\"attributeid__c\":\"a0S2E00000x3JSTUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier4\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 4\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoBUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"49% coinsurance after deductible (30-day supply). 49% coinsurance after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"49% coinsurance after deductible (30-day supply). 49% coinsurance after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a482E000000oIC8QAM\",\"attributeid__c\":\"a0S2E00000x3JSUUA2\",\"attributecategoryid__c\":\"a0R2E00000MbtI8UAJ\",\"categorycode__c\":\"MEDICAREPARTD\",\"categoryname__c\":\"Medicare Part D Benefits\",\"attributeuniquecode__c\":\"PDPTier5\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Tier 5\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":69,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0P2E00000HFYoIUAX\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text Area\",\"value__c\":\"23% coinsurance after deductible (30-day supply). 23% coinsurance after deductible (90-day supply)\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text Area\",\"default\":\"23% coinsurance after deductible (30-day supply). 23% coinsurance after deductible (90-day supply)\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e4252f55-2f75-574b-fcdd-f347556bbbfe",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/e4252f55-2f75-574b-fcdd-f347556bbbfe",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/356fcf2e-2346-509f-5f83-142b99f3abb9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated143029084"
+    }
+]

@@ -1,0 +1,407 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "Dental_basic_serv_INN": "80%",
+        "Dental_coins_INN": "Not Covered",
+        "Dental_diag_prev_INN": "50%",
+        "Dental_major_serv_INN": "50%",
+        "Dental_pers_fam": "$50/$150",
+        "Dental_plan_description": "PPO means Preferred Provider Organization. As the name implies, with a PPO plan, you'll need to receive medical care from the doctors or hospitals on the insurance company's preferred list of providers to have your claims paid at the highest level.",
+        "Dental_waiting_period": "No waiting period",
+        "Rating_LISSubsidy": 50,
+        "Rating_ProductCode": "H7317-004",
+        "Rating_ProductName": "Dental Value Plan",
+        "Rating_ProductSubtype": "QHP"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "Dental_Benefits",
+                "Name": "Dental Benefits",
+                "displaySequence": 2010,
+                "id": "a0R2E00000JuU39UAF",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0S2E00000oY2fFUAS",
+                            "cloneable": true,
+                            "code": "Dental_pers_fam",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Person/Family",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2exUAC",
+                            "cloneable": true,
+                            "code": "Dental_basic_serv_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Basic Services",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2fBUAS",
+                            "cloneable": true,
+                            "code": "Dental_major_serv_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Major Services",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2f7UAC",
+                            "cloneable": true,
+                            "code": "Dental_diag_prev_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Diagnostic and Preventive",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000oY2fJUAS",
+                            "cloneable": true,
+                            "code": "Dental_waiting_period",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Waiting Period",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0S2E00000oY2f0UAC",
+                            "cloneable": true,
+                            "code": "Dental_coins_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Coinsurance",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000x3JS6UAM",
+                            "cloneable": true,
+                            "code": "Dental_plan_description",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Plan Description",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 7
+                }
+            },
+            {
+                "Code__c": "ProductRating",
+                "Name": "Product Rating",
+                "displaySequence": 2150,
+                "id": "a0R2E00000JuU3DUAV",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0S2E00000oY2iDUAS",
+                            "cloneable": true,
+                            "code": "Rating_ProductCode",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000oY2iBUAS",
+                            "cloneable": true,
+                            "code": "Rating_LISSubsidy",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotTranslatable": false,
+                            "label": "LowSubsidy",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000oY2iEUAS",
+                            "cloneable": true,
+                            "code": "Rating_ProductName",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Name",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0S2E00000oY2iGUAS",
+                            "cloneable": true,
+                            "code": "Rating_ProductSubtype",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Subtype",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 4
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2018-04-05",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "2023-04-14",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2019-04-15T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "89566750-f53a-8930-ae65-e3a5bbe5efe9",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"10/05/20\"},\"inputs\":{\"01t4P000008H6O0QAK\":{\"a0A4P00002DrQ5fUAF\":{\"count\":1,\"attributeCode\":\"Rating_ProductCode\",\"attributeLabel\":\"Product Code\",\"objectId\":\"01t4P000008H6O0QAK\",\"ratingInput\":\"ProductCode\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"H7317-004\"},\"productName\":\"Dental Value Plan\",\"productRecordType\":\"Product\",\"productCode\":\"H7317-004\",\"isRoot\":true},\"01t4P00000AZFbHQAX\":{\"a0A4P00002NjFceUAF\":{\"count\":5,\"attributeCode\":\"Location\",\"attributeLabel\":\"Location\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Location\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"productName\":\"Member\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"MedicareMember\",\"isOptional\":false,\"pciId\":\"a2z4P000003hRBDQA2\",\"a0A4P00002HWs1ZUAT\":{\"count\":4,\"attributeCode\":\"Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002HWs1bUAD\":{\"count\":3,\"attributeCode\":\"Id\",\"attributeLabel\":\"MemberId\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"MemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0A4P00002HWs1UUAT\":{\"count\":2,\"attributeCode\":\"Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":\"null\"},\"a0A4P00002HWs1VUAT\":{\"count\":1,\"attributeCode\":\"Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t4P00000AZFbHQAX\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Group Dental",
+    "%vlocity_namespace%__MarketSegment__c": "Medicare",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "SmallGroupHLSMedicalProductsRatingExpSet",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "2023-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2018-04-05T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": 0,
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "PPO",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "Bronze",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Dental",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "PPO means Preferred Provider Organization. As the name implies, with a PPO plan, you'll need to receive medical care from the doctors or hospitals on the insurance company's preferred list of providers to have your claims paid at the highest level.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "Other",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Dental Value Plan",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "MC-DEN-H7317-004",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/89566750-f53a-8930-ae65-e3a5bbe5efe9"
+}

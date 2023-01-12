@@ -1,0 +1,785 @@
+[
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Medical_OverallStarR": "4",
+            "Medical_annualDed_INN": "$2,000 or $5,003",
+            "Medical_annualDed_OON": "$3,000 or $6,000",
+            "Medical_annualOOP_INN": "$5,000 or $10,000",
+            "Medical_annualOOP_OON": "$6,000 or $11,000",
+            "Medical_coinsurance_INN": "40% After Ded",
+            "Medical_coinsurance_OON": "Not Covered",
+            "Medical_lifetimeMax_INN": "Unlimited",
+            "Medical_lifetimeMax_OON": "Unlimited",
+            "Medical_preventative_INN": "$0 Copay",
+            "Medical_preventative_OON": "$0 Copay"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MED_Medical",
+                    "Name": "Medical Benefits",
+                    "displaySequence": 2000,
+                    "id": "a0UDn000000k9wrMAA",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnHjMAK",
+                                "cloneable": true,
+                                "code": "Medical_annualDed_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Annual Deductible",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnHkMAK",
+                                "cloneable": true,
+                                "code": "Medical_annualDed_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Annual Deductible",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnHlMAK",
+                                "cloneable": true,
+                                "code": "Medical_annualOOP_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Annual OOP Limit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnHmMAK",
+                                "cloneable": true,
+                                "code": "Medical_annualOOP_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Annual OOP Limit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnHnMAK",
+                                "cloneable": true,
+                                "code": "Medical_coinsurance_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Coinsurance",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnHoMAK",
+                                "cloneable": true,
+                                "code": "Medical_coinsurance_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 5,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Coinsurance",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnHpMAK",
+                                "cloneable": true,
+                                "code": "Medical_lifetimeMax_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 6,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Lifetime Maximum",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnHqMAK",
+                                "cloneable": true,
+                                "code": "Medical_lifetimeMax_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 7,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Lifetime Maximum",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnHrMAK",
+                                "cloneable": true,
+                                "code": "Medical_preventative_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 8,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Preventive Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnHsMAK",
+                                "cloneable": true,
+                                "code": "Medical_preventative_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 9,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Preventive Services",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeId": "a0VDn000000GnIyMAK",
+                                "cloneable": true,
+                                "code": "Medical_OverallStarR",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 10,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotAssetizable": false,
+                                "isNotTranslatable": false,
+                                "label": "Star Rating",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 11
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MED_Medical\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2EMAU\",\"attributeid__c\":\"a0VDn000000GnHjMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_annualDed_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Annual Deductible\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZxHMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$2,000 or $5,003\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$2,000 or $5,003\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2EMAU\",\"attributeid__c\":\"a0VDn000000GnHkMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_annualDed_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Annual Deductible\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZxIMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$3,000 or $6,000\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$3,000 or $6,000\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwemIAC\",\"attributeid__c\":\"a0VDn000000GnIyMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_OverallStarR\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"10\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Star Rating\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":4,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrWMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":null,\"value__c\":\"4\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":null,\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"default\":\"4\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2EMAU\",\"attributeid__c\":\"a0VDn000000GnHlMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_annualOOP_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Annual OOP Limit\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZxJMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$5,000 or $10,000\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$5,000 or $10,000\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2EMAU\",\"attributeid__c\":\"a0VDn000000GnHmMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_annualOOP_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Annual OOP Limit\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZxKMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$6,000 or $11,000\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$6,000 or $11,000\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2EMAU\",\"attributeid__c\":\"a0VDn000000GnHnMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_coinsurance_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Coinsurance\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZxLMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"40% After Ded\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"40% After Ded\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwemIAC\",\"attributeid__c\":\"a0VDn000000GnHoMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_coinsurance_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"5\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Coinsurance\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrRMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Not Covered\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Not Covered\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwemIAC\",\"attributeid__c\":\"a0VDn000000GnHpMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_lifetimeMax_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"6\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Lifetime Maximum\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrSMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Unlimited\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Unlimited\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwemIAC\",\"attributeid__c\":\"a0VDn000000GnHqMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_lifetimeMax_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"7\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Lifetime Maximum\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrTMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"Unlimited\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"Unlimited\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwemIAC\",\"attributeid__c\":\"a0VDn000000GnHrMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_preventative_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"8\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Preventive Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrUMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$0 Copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$0 Copay\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HwemIAC\",\"attributeid__c\":\"a0VDn000000GnHsMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_preventative_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"9\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Preventive Services\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZrVMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$0 Copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"isnotassetizable__c\":false,\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$0 Copay\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "968ed6b5-4cee-bb25-2178-1537e5afd183",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/968ed6b5-4cee-bb25-2178-1537e5afd183",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9eb3bf0a-7fcb-e245-8ff6-55b1e1491055",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/9eb3bf0a-7fcb-e245-8ff6-55b1e1491055",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated1825520136"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Medical_ambula_INN": "$175 Copay",
+            "Medical_ambula_OON": "$175 Copay",
+            "Medical_emergRoom_INN": "$250 Copay",
+            "Medical_emergRoom_OON": "$500 Copay",
+            "Medical_urgentCareFacility_INN": "$100 Copay",
+            "Medical_urgentCareFacility_OON": "Not Covered"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MED_Medical",
+                    "Name": "Medical Benefits",
+                    "displaySequence": 2000,
+                    "id": "a0UDn000000k9wrMAA",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnHvMAK",
+                                "cloneable": true,
+                                "code": "Medical_ambula_INN",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Ambulance",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "id": "0",
+                                        "label": "$175 Copay",
+                                        "readonly": true,
+                                        "value": "$175 Copay"
+                                    },
+                                    {
+                                        "disabled": true,
+                                        "id": "1",
+                                        "label": "20% Coins After Ded",
+                                        "readonly": true,
+                                        "value": "20% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": true,
+                                        "id": "2",
+                                        "label": "$150 Copay",
+                                        "readonly": true,
+                                        "value": "$150 Copay"
+                                    },
+                                    {
+                                        "disabled": true,
+                                        "id": "3",
+                                        "label": "30% Coins After Ded",
+                                        "readonly": true,
+                                        "value": "30% Coins After Ded"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnHwMAK",
+                                "cloneable": true,
+                                "code": "Medical_ambula_OON",
+                                "dataType": "text",
+                                "disabled": true,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Ambulance",
+                                "multiselect": false,
+                                "readonly": true,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": true,
+                                        "id": "0",
+                                        "label": "$175 Copay",
+                                        "readonly": true,
+                                        "value": "$175 Copay"
+                                    },
+                                    {
+                                        "disabled": true,
+                                        "id": "1",
+                                        "label": "20% Coins After Ded",
+                                        "readonly": true,
+                                        "value": "20% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": true,
+                                        "id": "2",
+                                        "label": "$150 Copay",
+                                        "readonly": true,
+                                        "value": "$150 Copay"
+                                    },
+                                    {
+                                        "disabled": true,
+                                        "id": "3",
+                                        "label": "30% Coins After Ded",
+                                        "readonly": true,
+                                        "value": "30% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": true,
+                                        "id": "4",
+                                        "label": "n/a",
+                                        "readonly": true,
+                                        "value": "n/a"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnHxMAK",
+                                "cloneable": true,
+                                "code": "Medical_emergRoom_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 2,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Emergency Room",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "$250 Copay",
+                                        "readonly": false,
+                                        "value": "$250 Copay"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "20% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "20% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "$175 Copay",
+                                        "readonly": false,
+                                        "value": "$175 Copay"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "30% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "30% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "$125 Copay",
+                                        "readonly": false,
+                                        "value": "$125 Copay"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnHyMAK",
+                                "cloneable": true,
+                                "code": "Medical_emergRoom_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 3,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Emergency Room",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "$500 Copay",
+                                        "readonly": false,
+                                        "value": "$500 Copay"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "40% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "40% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "50% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "50% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "30% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "30% Coins After Ded"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0VDn000000GnHzMAK",
+                                "cloneable": true,
+                                "code": "Medical_urgentCareFacility_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 4,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Urgent Care Facility",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "$100 Copay",
+                                        "readonly": false,
+                                        "value": "$100 Copay"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "$150 Copay",
+                                        "readonly": false,
+                                        "value": "$150 Copay"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "20% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "20% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "$50 Copay",
+                                        "readonly": false,
+                                        "value": "$50 Copay"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "4",
+                                        "label": "30% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "30% Coins After Ded"
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0VDn000000GnI0MAK",
+                                "cloneable": true,
+                                "code": "Medical_urgentCareFacility_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 5,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "dropdown",
+                                "isNotTranslatable": false,
+                                "label": "Urgent Care Facility",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "id": "0",
+                                        "label": "Not Covered",
+                                        "readonly": false,
+                                        "value": "Not Covered"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "1",
+                                        "label": "40% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "40% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "2",
+                                        "label": "50% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "50% Coins After Ded"
+                                    },
+                                    {
+                                        "disabled": false,
+                                        "id": "3",
+                                        "label": "30% Coins After Ded",
+                                        "readonly": false,
+                                        "value": "30% Coins After Ded"
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 6
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MED_Medical\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2DMAU\",\"attributeid__c\":\"a0VDn000000GnHvMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_ambula_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Ambulance\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":true,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZxFMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"$175 Copay\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"$175 Copay\",\"id\":0,\"displayText\":\"$175 Copay\"}],\"values\":[{\"value\":\"$175 Copay\",\"id\":0,\"displayText\":\"$175 Copay\"},{\"value\":\"20% Coins After Ded\",\"id\":1,\"displayText\":\"20% Coins After Ded\"},{\"value\":\"$150 Copay\",\"id\":2,\"displayText\":\"$150 Copay\"},{\"value\":\"30% Coins After Ded\",\"id\":3,\"displayText\":\"30% Coins After Ded\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4XDn000000kA2DMAU\",\"attributeid__c\":\"a0VDn000000GnHwMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_ambula_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Ambulance\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":true,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZxGMAW\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"$175 Copay\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"$175 Copay\",\"id\":0,\"displayText\":\"$175 Copay\"}],\"values\":[{\"value\":\"$175 Copay\",\"id\":0,\"displayText\":\"$175 Copay\"},{\"value\":\"20% Coins After Ded\",\"id\":1,\"displayText\":\"20% Coins After Ded\"},{\"value\":\"$150 Copay\",\"id\":2,\"displayText\":\"$150 Copay\"},{\"value\":\"30% Coins After Ded\",\"id\":3,\"displayText\":\"30% Coins After Ded\"},{\"value\":\"n/a\",\"id\":4,\"displayText\":\"n/a\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HweOIAS\",\"attributeid__c\":\"a0VDn000000GnHxMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_emergRoom_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"2\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Emergency Room\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZl0MAG\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"$250 Copay\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"$250 Copay\",\"id\":0,\"displayText\":\"$250 Copay\"}],\"values\":[{\"value\":\"$250 Copay\",\"id\":0,\"displayText\":\"$250 Copay\"},{\"value\":\"20% Coins After Ded\",\"id\":1,\"displayText\":\"20% Coins After Ded\"},{\"value\":\"$175 Copay\",\"id\":2,\"displayText\":\"$175 Copay\"},{\"value\":\"30% Coins After Ded\",\"id\":3,\"displayText\":\"30% Coins After Ded\"},{\"value\":\"$125 Copay\",\"id\":4,\"displayText\":\"$125 Copay\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HweOIAS\",\"attributeid__c\":\"a0VDn000000GnHyMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_emergRoom_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"3\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Emergency Room\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZl1MAG\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"$500 Copay\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"$500 Copay\",\"id\":0,\"displayText\":\"$500 Copay\"}],\"values\":[{\"value\":\"$500 Copay\",\"id\":0,\"displayText\":\"$500 Copay\"},{\"value\":\"40% Coins After Ded\",\"id\":1,\"displayText\":\"40% Coins After Ded\"},{\"value\":\"50% Coins After Ded\",\"id\":2,\"displayText\":\"50% Coins After Ded\"},{\"value\":\"30% Coins After Ded\",\"id\":3,\"displayText\":\"30% Coins After Ded\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HweOIAS\",\"attributeid__c\":\"a0VDn000000GnHzMAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_urgentCareFacility_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"4\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Urgent Care Facility\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZl2MAG\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"$100 Copay\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"$100 Copay\",\"id\":0,\"displayText\":\"$100 Copay\"}],\"values\":[{\"value\":\"$100 Copay\",\"id\":0,\"displayText\":\"$100 Copay\"},{\"value\":\"$150 Copay\",\"id\":1,\"displayText\":\"$150 Copay\"},{\"value\":\"20% Coins After Ded\",\"id\":2,\"displayText\":\"20% Coins After Ded\"},{\"value\":\"$50 Copay\",\"id\":3,\"displayText\":\"$50 Copay\"},{\"value\":\"30% Coins After Ded\",\"id\":4,\"displayText\":\"30% Coins After Ded\"}]},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"01tDn000000HweOIAS\",\"attributeid__c\":\"a0VDn000000GnI0MAK\",\"attributecategoryid__c\":\"a0UDn000000k9wrMAA\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_urgentCareFacility_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"5\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Urgent Care Facility\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":null,\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0SDn000000XZl3MAG\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Dropdown\",\"value__c\":\"Not Covered\",\"valuedatatype__c\":\"Picklist\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Picklist\",\"uiDisplayType\":\"Dropdown\",\"default\":[{\"value\":\"Not Covered\",\"id\":0,\"displayText\":\"Not Covered\"}],\"values\":[{\"value\":\"Not Covered\",\"id\":0,\"displayText\":\"Not Covered\"},{\"value\":\"40% Coins After Ded\",\"id\":1,\"displayText\":\"40% Coins After Ded\"},{\"value\":\"50% Coins After Ded\",\"id\":2,\"displayText\":\"50% Coins After Ded\"},{\"value\":\"30% Coins After Ded\",\"id\":3,\"displayText\":\"30% Coins After Ded\"}]},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f61b71b4-e590-e1ea-d738-e15b926a4d8d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/f61b71b4-e590-e1ea-d738-e15b926a4d8d",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9eb3bf0a-7fcb-e245-8ff6-55b1e1491055",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/9eb3bf0a-7fcb-e245-8ff6-55b1e1491055",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated-226823043"
+    },
+    {
+        "%vlocity_namespace%__AttributeDefaultValues__c": {
+            "Medical_primaryCare_INN": "$500 Copay",
+            "Medical_primaryCare_OON": "$500 Copay"
+        },
+        "%vlocity_namespace%__AttributeMetadataChanges__c": "",
+        "%vlocity_namespace%__AttributeMetadata__c": {
+            "records": [
+                {
+                    "Code__c": "MED_Medical",
+                    "Name": "Medical Benefits",
+                    "displaySequence": 2000,
+                    "id": "a0U5e000000GLZmEAO",
+                    "productAttributes": {
+                        "records": [
+                            {
+                                "attributeGroupType": "In-Network",
+                                "attributeId": "a0V5e000000GWrpEAG",
+                                "cloneable": true,
+                                "code": "Medical_primaryCare_INN",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 0,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Primary Care Visit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            },
+                            {
+                                "attributeGroupType": "Out-Of-Network",
+                                "attributeId": "a0V5e000000GWrqEAG",
+                                "cloneable": true,
+                                "code": "Medical_primaryCare_OON",
+                                "dataType": "text",
+                                "disabled": false,
+                                "displaySequence": 1,
+                                "filterable": true,
+                                "hasRules": false,
+                                "hidden": false,
+                                "inputType": "text",
+                                "isNotTranslatable": false,
+                                "label": "Primary Care Visit",
+                                "multiselect": false,
+                                "readonly": false,
+                                "required": false,
+                                "userValues": null,
+                                "values": [
+                                    {
+                                        "disabled": false,
+                                        "readonly": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "totalSize": 2
+                    }
+                }
+            ],
+            "totalSize": 1
+        },
+        "%vlocity_namespace%__AttributeRules__c": "",
+        "%vlocity_namespace%__JSONAttribute__c": "{\"MED_Medical\":[{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4X5e000000d2c7EAA\",\"attributeid__c\":\"a0V5e000000GWrpEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_primaryCare_INN\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"0\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Primary Care Visit\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUTzEAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$500 Copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"In-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$500 Copay\"},\"$$AttributeDefinitionEnd$$\":null},{\"$$AttributeDefinitionStart$$\":null,\"objectid__c\":\"a4X5e000000d2c7EAA\",\"attributeid__c\":\"a0V5e000000GWrqEAG\",\"attributecategoryid__c\":\"a0U5e000000GLZmEAO\",\"categorycode__c\":\"MED_Medical\",\"categoryname__c\":\"Medical Benefits\",\"attributeuniquecode__c\":\"Medical_primaryCare_OON\",\"attributeconfigurable__c\":true,\"attributedisplaysequence__c\":\"1\",\"attributefilterable__c\":true,\"attributecloneable__c\":true,\"isactive__c\":true,\"attributedisplayname__c\":\"Primary Care Visit\",\"displaysequence__c\":null,\"categorydisplaysequence__c\":2000,\"customconfiguitemplate__c\":null,\"formatmask__c\":null,\"hasrule__c\":false,\"isconfigurable__c\":true,\"ishidden__c\":false,\"valueinnumber__c\":null,\"objecttype__c\":\"Product Child Item\",\"querycode__c\":null,\"isreadonly__c\":false,\"isnottranslatable__c\":false,\"isquerydriven__c\":false,\"querylabel__c\":null,\"id\":\"a0S5e000000FUU0EAO\",\"isrequired__c\":false,\"rulemessage__c\":null,\"uidisplaytype__c\":\"Text\",\"value__c\":\"$500 Copay\",\"valuedatatype__c\":\"Text\",\"valuedescription__c\":null,\"attributegrouptype__c\":\"Out-Of-Network\",\"attributeRunTimeInfo\":{\"dataType\":\"Text\",\"uiDisplayType\":\"Text\",\"default\":\"$500 Copay\"},\"$$AttributeDefinitionEnd$$\":null}]}",
+        "%vlocity_namespace%__ProductChildItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "83760f94-5721-0811-8b46-6717b6c1ab19",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/83760f94-5721-0811-8b46-6717b6c1ab19",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+        },
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9eb3bf0a-7fcb-e245-8ff6-55b1e1491055",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/9eb3bf0a-7fcb-e245-8ff6-55b1e1491055",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CompiledAttributeOverride__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CompiledAttributeOverride__c/Generated952560092"
+    }
+]

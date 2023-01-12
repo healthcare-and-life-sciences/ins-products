@@ -1,0 +1,396 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Medicare-Advantage-Complete-Plus-PPO_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "Medical_OverallStarR": "4",
+        "Medical_annualDed_INN": "No Deductible",
+        "Medical_annualOOP_INN": "$5,000",
+        "Medical_coinsurance_INN": "30% Coinsurance",
+        "Medical_preventative_INN": "$0 Copay",
+        "Medical_primaryCare_INN": "$5 Copay",
+        "Medical_specialist_INN": "$40 Copay",
+        "Plan_Description": "PPO means Preferred Provider Organization. As the name implies, with a PPO plan, you'll need to receive medical care from the doctors or hospitals on the insurance company's preferred list of providers to have your claims paid at the highest level.",
+        "Rating_ProductCode": "H3832-011"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "MED_Medical",
+                "Name": "Medical Benefits",
+                "displaySequence": 2000,
+                "id": "a0U5e000000GLZmEAO",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWrfEAG",
+                            "cloneable": true,
+                            "code": "Medical_annualDed_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Deductible",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWrhEAG",
+                            "cloneable": true,
+                            "code": "Medical_annualOOP_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Out Of Pocket",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWrpEAG",
+                            "cloneable": true,
+                            "code": "Medical_primaryCare_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Office Visit",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWrnEAG",
+                            "cloneable": true,
+                            "code": "Medical_preventative_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Preventive Services",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWrrEAG",
+                            "cloneable": true,
+                            "code": "Medical_specialist_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Specialist",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0V5e000000GWrjEAG",
+                            "cloneable": true,
+                            "code": "Medical_coinsurance_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Coinsurance",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0V5e000000GWsaEAG",
+                            "cloneable": true,
+                            "code": "Plan_Description",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "textarea",
+                            "isNotTranslatable": false,
+                            "label": "Plan Description",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0V5e000000GWsMEAW",
+                            "cloneable": true,
+                            "code": "Medical_OverallStarR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 8,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Star Rating",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 8
+                }
+            },
+            {
+                "Code__c": "ProductRating",
+                "Name": "Product Rating",
+                "displaySequence": 2150,
+                "id": "a0U5e000000GLZsEAO",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0V5e000000GWrFEAW",
+                            "cloneable": true,
+                            "code": "Rating_ProductCode",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Product Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "Medicare-Advantage-Complete-Plus-PPO_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2020-04-14",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "2027-04-07",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "8377b602-481d-54b6-cb73-e09b7109a181",
+    "%vlocity_namespace%__GlobalKey__c": "e9a506c0-b076-2fb7-3f63-a3e6aa29597f",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"05/07/20\"},\"inputs\":{\"01t5e000001rEecAAE\":{\"a0S5e0000019RhcEAE\":{\"count\":1,\"attributeCode\":\"Rating_ProductCode\",\"attributeLabel\":\"Product Code\",\"objectId\":\"01t5e000001rEecAAE\",\"ratingInput\":\"ProductCode\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"H3832-011\"},\"productName\":\"Medicare Advantage Complete Plus PPO\",\"productRecordType\":\"Product\",\"productCode\":\"H3832-011\",\"isRoot\":true},\"01t5e000001rEewAAE\":{\"a0S5e0000019RVVEA2\":{\"count\":5,\"attributeCode\":\"Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t5e000001rEewAAE\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"productName\":\"Member\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"MedicareMember\",\"isOptional\":false,\"pciId\":\"a4X5e000000dRACEA2\",\"a0S5e0000019RVTEA2\":{\"count\":4,\"attributeCode\":\"Location\",\"attributeLabel\":\"Location\",\"objectId\":\"01t5e000001rEewAAE\",\"ratingInput\":\"Location\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0S5e0000019RVUEA2\":{\"count\":3,\"attributeCode\":\"Id\",\"attributeLabel\":\"MemberId\",\"objectId\":\"01t5e000001rEewAAE\",\"ratingInput\":\"MemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null},\"a0S5e0000019RVREA2\":{\"count\":2,\"attributeCode\":\"Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t5e000001rEewAAE\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":\"null\"},\"a0S5e0000019RVSEA2\":{\"count\":1,\"attributeCode\":\"Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t5e000001rEewAAE\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MedicareMember\",\"categoryName\":\"Member\",\"attributeDefaultValue\":null}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Medicare",
+    "%vlocity_namespace%__MarketSegment__c": "Medicare",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "Medicare-Advantage-Complete-Plus-PPO_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "MedicareAdvantageBasePremium__Price",
+    "%vlocity_namespace%__PricingSource__c": "MedicareAdvantageBasePremium__Price",
+    "%vlocity_namespace%__ProductChildItem__c": "Medicare-Advantage-Complete-Plus-PPO_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "SmallGroupHLSMedicalProductsRatingExpSet",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2027-04-07T08:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__Term__c": "Annual",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "MedicareAdvantageBasePremium__Price",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Medicare Advantage",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "PPO means Preferred Provider Organization. As the name implies, with a PPO plan, you'll need to receive medical care from the doctors or hospitals on the insurance company's preferred list of providers to have your claims paid at the highest level. You probably won’t be required to coordinate your care through a single primary care physician, as you would with an HMO, but it's up to you to make sure that the health care providers you visit participate in the PPO. Services rendered by out-of-network providers may not be covered or may be paid at a lower level.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "Other",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Medicare Advantage Complete Plus PPO",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Medicare-Advantage-Complete-Plus-PPO_PricebookEntries.json",
+    "ProductCode": "MC-MED-H3832-011",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Medicare Advantage Complete Plus PPO",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "e9a506c0-b076-2fb7-3f63-a3e6aa29597f",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "e9a506c0-b076-2fb7-3f63-a3e6aa29597f",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/e9a506c0-b076-2fb7-3f63-a3e6aa29597f",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "MC-MED-H3832-011",
+            "UnitPrice": 1,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/e9a506c0-b076-2fb7-3f63-a3e6aa29597f"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/e9a506c0-b076-2fb7-3f63-a3e6aa29597f"
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Medicare (Part B) - Medical Services - Medical Expenses",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "bdb9a7a2-e1c9-d7dd-8f9c-c309f6bd3cff",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "bdb9a7a2-e1c9-d7dd-8f9c-c309f6bd3cff",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/bdb9a7a2-e1c9-d7dd-8f9c-c309f6bd3cff",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "MedSuppB_MedSerMedExp",
+        "UnitPrice": 1,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/bdb9a7a2-e1c9-d7dd-8f9c-c309f6bd3cff"
+    }
+]

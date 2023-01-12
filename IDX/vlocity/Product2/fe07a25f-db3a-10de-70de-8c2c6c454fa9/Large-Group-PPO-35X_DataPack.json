@@ -1,0 +1,448 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Large-Group-PPO-35X_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "Medical_annualDedKey_INN": "$1,000 Indiv | $2,000 Fam",
+        "Medical_annualOOPKey_INN": "$1,000 Indiv | $2,000 Fam",
+        "Medical_coinsuranceKey_INN": "50% Coins After Ded",
+        "Medical_primaryCareKey_INN": "$50 Copay",
+        "Rating_ProductCode": "Large Group PPO 35X",
+        "Rating_ProductName": "Large Group PPO 35"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "MED_Medical",
+                "Name": "Medical Benefits",
+                "displaySequence": 2000,
+                "id": "a0UDn000000k9wrMAA",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0VDn000000GnICMA0",
+                            "cloneable": true,
+                            "code": "Medical_annualDedKey_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Annual Deductible Key INN",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "$1,000 Indiv | $2,000 Fam",
+                                    "readonly": false,
+                                    "value": "$1,000 Indiv | $2,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$2,000 Indiv | $5,000 Fam",
+                                    "readonly": false,
+                                    "value": "$2,000 Indiv | $5,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "$5,000 Indiv | $10,000 Fam",
+                                    "readonly": false,
+                                    "value": "$5,000 Indiv | $10,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "$10,000 Indiv | $20,000 Fam",
+                                    "readonly": false,
+                                    "value": "$10,000 Indiv | $20,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "$15,000 Indiv | $30,000 Fam",
+                                    "readonly": false,
+                                    "value": "$15,000 Indiv | $30,000 Fam"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0VDn000000GnIDMA0",
+                            "cloneable": true,
+                            "code": "Medical_annualOOPKey_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Annual OOP Limit Key INN",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "$1,000 Indiv | $2,000 Fam",
+                                    "readonly": false,
+                                    "value": "$1,000 Indiv | $2,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$2,000 Indiv | $5,000 Fam",
+                                    "readonly": false,
+                                    "value": "$2,000 Indiv | $5,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "$5,000 Indiv | $10,000 Fam",
+                                    "readonly": false,
+                                    "value": "$5,000 Indiv | $10,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "$10,000 Indiv | $20,000 Fam",
+                                    "readonly": false,
+                                    "value": "$10,000 Indiv | $20,000 Fam"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "$15,000 Indiv | $30,000 Fam",
+                                    "readonly": false,
+                                    "value": "$15,000 Indiv | $30,000 Fam"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0VDn000000GnIEMA0",
+                            "cloneable": true,
+                            "code": "Medical_coinsuranceKey_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Coinsurance Key INN",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "50% Coins After Ded",
+                                    "readonly": false,
+                                    "value": "50% Coins After Ded"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "40% Coins After Ded",
+                                    "readonly": false,
+                                    "value": "40% Coins After Ded"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "30% Coins After Ded",
+                                    "readonly": false,
+                                    "value": "30% Coins After Ded"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "20% Coins After Ded",
+                                    "readonly": false,
+                                    "value": "20% Coins After Ded"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "10% Coins After Ded",
+                                    "readonly": false,
+                                    "value": "10% Coins After Ded"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0VDn000000GnIFMA0",
+                            "cloneable": true,
+                            "code": "Medical_primaryCareKey_INN",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Primary Care Visit Key INN",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "0",
+                                    "label": "$50 Copay",
+                                    "readonly": false,
+                                    "value": "$50 Copay"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "$100 Copay",
+                                    "readonly": false,
+                                    "value": "$100 Copay"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "$250 Copay",
+                                    "readonly": false,
+                                    "value": "$250 Copay"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "$500 Copay",
+                                    "readonly": false,
+                                    "value": "$500 Copay"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "$750 Copay",
+                                    "readonly": false,
+                                    "value": "$750 Copay"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 4
+                }
+            },
+            {
+                "Code__c": "ProductRating",
+                "Name": "Product Rating",
+                "displaySequence": 2150,
+                "id": "a0UDn000000k9wwMAA",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0VDn000000GnIAMA0",
+                            "cloneable": true,
+                            "code": "Rating_ProductCode",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": true,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Product Code",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0VDn000000GnIBMA0",
+                            "cloneable": true,
+                            "code": "Rating_ProductName",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Product Name",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "Large-Group-PPO-35X_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2019-04-14",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "37bbbf35-920c-5697-774b-c21909719508",
+    "%vlocity_namespace%__GlobalKey__c": "fe07a25f-db3a-10de-70de-8c2c6c454fa9",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"10/30/20\"},\"inputs\":{\"01t4x000000BTMBAA4\":{\"a0S4x0000006CsXEAU\":{\"count\":4,\"attributeCode\":\"Medical_inpatientMental_OON\",\"attributeLabel\":\"In-Patient Mental Health\",\"objectId\":\"a4X4x000000Ls0vEAC\",\"ratingInput\":\"MedicalHBSI_inpatientMental_OON\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"Not Covered\"},\"productName\":\"Hospital Based Services\",\"productRecordType\":\"CoverageSpec\",\"productCode\":\"Hosp_based_Serv\",\"isOptional\":false,\"pciId\":\"a4X4x000000Ls0vEAC\",\"a0S4x0000006Cf3EAE\":{\"count\":3,\"attributeCode\":\"Medical_inpatientMental_INN\",\"attributeLabel\":\"In-Patient Mental Health\",\"objectId\":\"01t4x000000BTMBAA4\",\"ratingInput\":\"MedicalHBSI_inpatientMental_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"20% Coins After Ded\"},\"a0S4x0000006Cf2EAE\":{\"count\":2,\"attributeCode\":\"Medical_inPatientHosp_OON\",\"attributeLabel\":\"In-Patient Hospital Care\",\"objectId\":\"01t4x000000BTMBAA4\",\"ratingInput\":\"MedicalHBSo_inPatientHosp_OON\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"Not Covered\"},\"a0S4x0000006Cf1EAE\":{\"count\":1,\"attributeCode\":\"Medical_inPatientHosp_INN\",\"attributeLabel\":\"In-Patient Hospital Care\",\"objectId\":\"01t4x000000BTMBAA4\",\"ratingInput\":\"MedicalHBSi_inPatientHosp_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"20% Coins After Ded\"}},\"01t4x000000BTMGAA4\":{\"a0S4x0000006CsNEAU\":{\"count\":13,\"attributeCode\":\"CensusMember_GroupPlans\",\"attributeLabel\":\"Group Plans\",\"objectId\":\"a4X4x000000Ls0uEAC\",\"ratingInput\":\"GroupClassPlans\",\"attributeDataType\":\"Text\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null},\"productName\":\"Group Census\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"CensusMember\",\"isOptional\":false,\"pciId\":\"a4X4x000000Ls0uEAC\",\"a0S4x0000006CfMEAU\":{\"count\":12,\"attributeCode\":\"Census_empChildCount\",\"attributeLabel\":\"Employee + Child Count\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"empChildCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S4x0000006CfLEAU\":{\"count\":11,\"attributeCode\":\"Census_empSpouseCount\",\"attributeLabel\":\"Employee + Spouse Count\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"empSpouseCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S4x0000006CfKEAU\":{\"count\":10,\"attributeCode\":\"Census_empOnlyCount\",\"attributeLabel\":\"Employee Only Count\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"empOnlyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S4x0000006CfYEAU\":{\"count\":9,\"attributeCode\":\"Census_empChildrenCount\",\"attributeLabel\":\"Employee + Children Count\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"empChildrenCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S4x0000006CfNEAU\":{\"count\":8,\"attributeCode\":\"Census_empFamilyCount\",\"attributeLabel\":\"Employee + Family Count\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"empFamilyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0S4x0000006CfXEAU\":{\"count\":7,\"attributeCode\":\"MemberType\",\"attributeLabel\":\"MemberType\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"Relationship\",\"attributeDataType\":\"Text\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null},\"a0S4x0000006CfOEAU\":{\"count\":6,\"attributeCode\":\"CensusMember_Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":\"null\"},\"a0S4x0000006CfPEAU\":{\"count\":5,\"attributeCode\":\"CensusMember_Id\",\"attributeLabel\":\"CensusMemberId\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"CensusMemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null},\"a0S4x0000006CfQEAU\":{\"count\":4,\"attributeCode\":\"CensusMember_Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null},\"a0S4x0000006CfSEAU\":{\"count\":3,\"attributeCode\":\"CensusMember_IsPrimary\",\"attributeLabel\":\"IsPrimary\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"IsPrimary\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":true},\"a0S4x0000006CfTEAU\":{\"count\":2,\"attributeCode\":\"CensusMember_IsSpouse\",\"attributeLabel\":\"IsSpouse\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"IsSpouse\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null},\"a0S4x0000006CfVEAU\":{\"count\":1,\"attributeCode\":\"CensusMember_Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t4x000000BTMGAA4\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"CensusMember\",\"categoryName\":\"Census Member\",\"attributeDefaultValue\":null}},\"01t4x000000BTMLAA4\":{\"a0S4x0000006CsQEAU\":{\"count\":6,\"attributeCode\":\"Medical_ambula_OON\",\"attributeLabel\":\"Ambulance\",\"objectId\":\"a4X4x000000Ls0zEAC\",\"ratingInput\":\"MedicaESo_ambula_ONN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"$175 Copay\"},\"productName\":\"Emergency Services\",\"productRecordType\":\"CoverageSpec\",\"productCode\":\"Emerg_Serv\",\"isOptional\":false,\"pciId\":\"a4X4x000000Ls0zEAC\",\"a0S4x0000006CgDEAU\":{\"count\":5,\"attributeCode\":\"Medical_urgentCareFacility_OON\",\"attributeLabel\":\"Urgent Care Facility\",\"objectId\":\"01t4x000000BTMLAA4\",\"ratingInput\":\"MedicaESo_urgentCareFacility_OON\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"Not Covered\"},\"a0S4x0000006Cg8EAE\":{\"count\":4,\"attributeCode\":\"Medical_ambula_INN\",\"attributeLabel\":\"Ambulance\",\"objectId\":\"01t4x000000BTMLAA4\",\"ratingInput\":\"MedicaESi_ambula_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"$175 Copay\"},\"a0S4x0000006CgCEAU\":{\"count\":3,\"attributeCode\":\"Medical_urgentCareFacility_INN\",\"attributeLabel\":\"Urgent Care Facility\",\"objectId\":\"01t4x000000BTMLAA4\",\"ratingInput\":\"MedicaESi_urgentCareFacility_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"$175 Copay\"},\"a0S4x0000006CgBEAU\":{\"count\":2,\"attributeCode\":\"Medical_emergRoom_OON\",\"attributeLabel\":\"Emergency Room\",\"objectId\":\"01t4x000000BTMLAA4\",\"ratingInput\":\"MedicaESo_emergRoom_OON\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"$500 Copay\"},\"a0S4x0000006CgAEAU\":{\"count\":1,\"attributeCode\":\"Medical_emergRoom_INN\",\"attributeLabel\":\"Emergency Room\",\"objectId\":\"01t4x000000BTMLAA4\",\"ratingInput\":\"MedicaESi_emergRoom_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"$250 Copay\"}},\"01t4x000000BTNBAA4\":{\"a0S4x0000006CkOEAU\":{\"count\":3,\"attributeCode\":\"quoteId\",\"attributeLabel\":\"quoteId\",\"objectId\":\"01t4x000000BTNBAA4\",\"ratingInput\":\"quoteId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"QLIFact\",\"categoryName\":\"QuoteRatingFact\",\"attributeDefaultValue\":null},\"productName\":\"QuoteLineItemFact\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"QLIFact\",\"isOptional\":false,\"pciId\":\"a4X4x000000Ls11EAC\",\"a0S4x0000006CkNEAU\":{\"count\":2,\"attributeCode\":\"censusId\",\"attributeLabel\":\"censusId\",\"objectId\":\"01t4x000000BTNBAA4\",\"ratingInput\":\"censusId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"QLIFact\",\"categoryName\":\"QuoteRatingFact\",\"attributeDefaultValue\":null},\"a0S4x0000006CkMEAU\":{\"count\":1,\"attributeCode\":\"rootLineId\",\"attributeLabel\":\"QLIRootId\",\"objectId\":\"01t4x000000BTNBAA4\",\"ratingInput\":\"rootLineId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"QLIFact\",\"categoryName\":\"QuoteRatingFact\",\"attributeDefaultValue\":null}},\"01t4x000000BTNCAA4\":{\"a0S4x0000006CkREAU\":{\"count\":3,\"attributeCode\":\"AC_situsState\",\"attributeLabel\":\"SitusState\",\"objectId\":\"01t4x000000BTNCAA4\",\"ratingInput\":null,\"attributeDataType\":\"Text\",\"categoryCode\":\"AccRatingFacts\",\"categoryName\":\"AccountRatingFacts\",\"attributeDefaultValue\":null},\"productName\":\"AccountFacts\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"AccountFacts\",\"isOptional\":false,\"pciId\":\"a4X4x000000Ls0rEAC\",\"a0S4x0000006CkPEAU\":{\"count\":2,\"attributeCode\":\"Acc_EmployeeCount\",\"attributeLabel\":\"NumEmployees\",\"objectId\":\"01t4x000000BTNCAA4\",\"ratingInput\":\"EmployeeCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"AccRatingFacts\",\"categoryName\":\"AccountRatingFacts\",\"attributeDefaultValue\":\"null\"},\"a0S4x0000006CkQEAU\":{\"count\":1,\"attributeCode\":\"AC_SIC\",\"attributeLabel\":\"SICCode\",\"objectId\":\"01t4x000000BTNCAA4\",\"ratingInput\":\"SICCode\",\"attributeDataType\":\"Number\",\"categoryCode\":\"AccRatingFacts\",\"categoryName\":\"AccountRatingFacts\",\"attributeDefaultValue\":\"null\"}},\"01t4x000000BTPUAA4\":{\"a0S4x0000006CsTEAU\":{\"count\":6,\"attributeCode\":\"Medical_coinsuranceKey_INN\",\"attributeLabel\":\"Coinsurance Key INN\",\"objectId\":\"01t4x000000BTPUAA4\",\"ratingInput\":\"MedicalATi_coinsurance_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"50% Coins After Ded\"},\"productName\":\"Large Group PPO 35X\",\"productRecordType\":\"Product\",\"productCode\":\"LG-PPO-35X\",\"isRoot\":true,\"a0S4x0000006CsqEAE\":{\"count\":5,\"attributeCode\":\"Medical_primaryCareKey_INN\",\"attributeLabel\":\"Primary Care Visit Key INN\",\"objectId\":\"01t4x000000BTPUAA4\",\"ratingInput\":\"MedicalATi_primaryCare_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"$50 Copay\"},\"a0S4x0000006CsSEAU\":{\"count\":4,\"attributeCode\":\"Medical_annualOOPKey_INN\",\"attributeLabel\":\"Annual OOP Limit Key INN\",\"objectId\":\"01t4x000000BTPUAA4\",\"ratingInput\":\"MedicalATi_annualOOP_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"$1,000 Indiv | $2,000 Fam\"},\"a0S4x0000006CsREAU\":{\"count\":3,\"attributeCode\":\"Medical_annualDedKey_INN\",\"attributeLabel\":\"Annual Deductible Key INN\",\"objectId\":\"01t4x000000BTPUAA4\",\"ratingInput\":\"MedicalATi_annualDedKey_INN\",\"attributeDataType\":\"Text\",\"categoryCode\":\"MED_Medical\",\"categoryName\":\"Medical Benefits\",\"attributeDefaultValue\":\"$1,000 Indiv | $2,000 Fam\"},\"a0S4x0000006Ct7EAE\":{\"count\":2,\"attributeCode\":\"Rating_ProductName\",\"attributeLabel\":\"Product Name\",\"objectId\":\"01t4x000000BTPUAA4\",\"ratingInput\":\"ProductName\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"Large Group PPO 35\"},\"a0S4x0000006Ct6EAE\":{\"count\":1,\"attributeCode\":\"Rating_ProductCode\",\"attributeLabel\":\"Product Code\",\"objectId\":\"01t4x000000BTPUAA4\",\"ratingInput\":\"ProductCode\",\"attributeDataType\":\"Text\",\"categoryCode\":\"ProductRating\",\"categoryName\":\"Product Rating\",\"attributeDefaultValue\":\"LG-PPO-35\"}}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Group Benefits",
+    "%vlocity_namespace%__MarketSegment__c": "Large Group",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "Large-Group-PPO-35X_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "",
+    "%vlocity_namespace%__PricingSource__c": "totalPremium",
+    "%vlocity_namespace%__ProductChildItem__c": "Large-Group-PPO-35X_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "SmallGroupHLSMedicalProductsRatingExpSet",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2019-04-14T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "PPO",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "Bronze",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Medical",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "Largest national network and ability to see any network physicians without a referral.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "None",
+    "IsActive": false,
+    "IsArchived": false,
+    "Name": "Large Group PPO 35X",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "LG-MED-PPO-35X",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": false,
+            "IsArchived": false,
+            "Name": "Large Group PPO 35X",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "fe07a25f-db3a-10de-70de-8c2c6c454fa9",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "fe07a25f-db3a-10de-70de-8c2c6c454fa9",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/fe07a25f-db3a-10de-70de-8c2c6c454fa9",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "LG-MED-PPO-35X",
+            "UnitPrice": 1,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/fe07a25f-db3a-10de-70de-8c2c6c454fa9"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/fe07a25f-db3a-10de-70de-8c2c6c454fa9"
+}

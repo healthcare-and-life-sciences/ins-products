@@ -1,0 +1,471 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Dental-Plan-Classic_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "EmployerContribution": "",
+        "GroupPremiumEmployee": null,
+        "GroupPremiumEmployer": null,
+        "SG_ProductCode": "SG-DNT-CLS",
+        "SG_annual_bene": "$1,000",
+        "SG_annual_carry": "No",
+        "SG_basic_serv_INN": "90%",
+        "SG_diag_prev_INN": "100%",
+        "SG_major_serv_INN": "70%",
+        "SG_pers_fam_INN": "$25/$75",
+        "SG_plan_desc": "Dental Classic Plan"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "records": [
+            {
+                "Code__c": "SG_Dental",
+                "Name": "SG Dental",
+                "displaySequence": 14,
+                "id": "a0UDn000000k9x5MAA",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0VDn000000GnJOMA0",
+                            "cloneable": true,
+                            "code": "SG_pers_fam_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Deductible",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0VDn000000GnJQMA0",
+                            "cloneable": true,
+                            "code": "SG_annual_bene",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Annual Benefit",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0VDn000000GnJSMA0",
+                            "cloneable": true,
+                            "code": "SG_annual_carry",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Annual Carryover",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0VDn000000GnJPMA0",
+                            "cloneable": true,
+                            "code": "SG_basic_serv_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Basic Service",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0VDn000000GnJRMA0",
+                            "cloneable": true,
+                            "code": "SG_major_serv_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 5,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Major Service",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeGroupType": "In-Network",
+                            "attributeId": "a0VDn000000GnJTMA0",
+                            "cloneable": true,
+                            "code": "SG_diag_prev_INN",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 6,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Diagnostic and Preventive",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0VDn000000GnJUMA0",
+                            "cloneable": true,
+                            "code": "SG_plan_desc",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 7,
+                            "filterable": true,
+                            "hasRules": true,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Plan Description",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 7
+                }
+            },
+            {
+                "Code__c": "SG_ProductRating",
+                "Name": "SG Product Rating",
+                "displaySequence": 18,
+                "id": "a0UDn000000k9x0MAA",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0VDn000000GnJ3MAK",
+                            "cloneable": true,
+                            "code": "SG_ProductCode",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 0,
+                            "filterable": false,
+                            "hasRules": true,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Product Code",
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "CensusContribution",
+                "Name": "Employer Contribution",
+                "displaySequence": 1234,
+                "id": "a0UDn000000k9wxMAA",
+                "productAttributes": {
+                    "records": [
+                        {
+                            "attributeId": "a0VDn000000GnIHMA0",
+                            "cloneable": true,
+                            "code": "GroupPremiumEmployee",
+                            "dataType": "currency",
+                            "disabled": false,
+                            "displaySequence": 8,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Group Premium Employee",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0VDn000000GnIIMA0",
+                            "cloneable": true,
+                            "code": "GroupPremiumEmployer",
+                            "dataType": "currency",
+                            "disabled": false,
+                            "displaySequence": 9,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Group Premium Employer",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0VDn000000GnIGMA0",
+                            "cloneable": true,
+                            "code": "EmployerContribution",
+                            "dataType": "number",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "number",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Employer Contribution %",
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 3
+    },
+    "%vlocity_namespace%__AttributeRules__c": "",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__Availability__c": "",
+    "%vlocity_namespace%__CarrierId__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__CompiledAttributeOverride__c": "Dental-Plan-Classic_CompiledAttributeOverrides.json",
+    "%vlocity_namespace%__CoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2020-04-14",
+    "%vlocity_namespace%__EligibilityCriteriaComments__c": "",
+    "%vlocity_namespace%__EligibilityCriteria__c": "",
+    "%vlocity_namespace%__EndDate__c": "2023-04-15",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__EnrollmentStatus__c": "Active",
+    "%vlocity_namespace%__FormularyId__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "da7c1894-7c76-0883-1d4b-a4cc885bd1a1",
+    "%vlocity_namespace%__GlobalKey__c": "f9be4f00-7a6a-d834-d467-e39055a6b453",
+    "%vlocity_namespace%__HasCustomAttributesProcess__c": false,
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__InstanceKeyFormula__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__IsRecommended__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LastPublishDate__c": "",
+    "%vlocity_namespace%__LastSimulationInput__c": "{\"options\":{\"effectiveDate\":\"11/11/2021\"},\"inputs\":{\"01t4P00000B5MUmQAN\":{\"a0A4P00002LYaBhUAL\":{\"count\":16,\"attributeCode\":\"SG_CA_RatingType\",\"attributeLabel\":\"RatingType\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"RatingType\",\"attributeDataType\":\"Text\",\"categoryCode\":\"CensusAverageRating\",\"categoryName\":\"CensusAverageRating\",\"attributeDefaultValue\":\"Age\"},\"productName\":\"HLS Small Group Census\",\"productRecordType\":\"RatingFactSpec\",\"productCode\":\"HLS-SG-Census-RF\",\"isOptional\":false,\"pciId\":\"a2z4P000002k5WzQAI\",\"a0A4P00002LYaBgUAL\":{\"count\":15,\"attributeCode\":\"SG_CA_RatingTypeAverageMemberDependents\",\"attributeLabel\":\"RatingTypeAverageMemberDependents\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"RatingTypeAverageMemberDependents\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusAverageRating\",\"categoryName\":\"CensusAverageRating\",\"attributeDefaultValue\":\"null\"},\"a0A4P00002LYaVxUAL\":{\"count\":14,\"attributeCode\":\"VisContribution\",\"attributeLabel\":\"VisContribution\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"VisContribution\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusContribution\",\"categoryName\":\"CensusContribution\",\"attributeDefaultValue\":\"66\"},\"a0A4P00002LYaVnUAL\":{\"count\":13,\"attributeCode\":\"MedContribution\",\"attributeLabel\":\"MedContribution\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"MedContribution\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusContribution\",\"categoryName\":\"CensusContribution\",\"attributeDefaultValue\":\"55\"},\"a0A4P00002LYaVsUAL\":{\"count\":12,\"attributeCode\":\"DenContribution\",\"attributeLabel\":\"DenContribution\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"DenContribution\",\"attributeDataType\":\"Number\",\"categoryCode\":\"CensusContribution\",\"categoryName\":\"CensusContribution\",\"attributeDefaultValue\":\"44\"},\"a0A4P00002LYaBWUA1\":{\"count\":11,\"attributeCode\":\"SG_empFamilyCount\",\"attributeLabel\":\"Employee + Family Count\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"empFamilyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"1\"},\"a0A4P00002LYaBjUAL\":{\"count\":10,\"attributeCode\":\"SG_empChildrenCount\",\"attributeLabel\":\"Employee + Children Count\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"empChildrenCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"1\"},\"a0A4P00002LYaVdUAL\":{\"count\":9,\"attributeCode\":\"SG_empTotalCount\",\"attributeLabel\":\"Employee Total\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"empTotalCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"null\"},\"a0A4P00002LYaBVUA1\":{\"count\":8,\"attributeCode\":\"SG_empChildCount\",\"attributeLabel\":\"Employee + Child Count\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"empChildCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"1\"},\"a0A4P00002LYaBXUA1\":{\"count\":7,\"attributeCode\":\"SG_empSpouseCount\",\"attributeLabel\":\"Employee + Spouse Count\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"empSpouseCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"1\"},\"a0A4P00002LYaBYUA1\":{\"count\":6,\"attributeCode\":\"SG_empOnlyCount\",\"attributeLabel\":\"Employee Only Count\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"empOnlyCount\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_Census\",\"categoryName\":\"Census\",\"attributeDefaultValue\":\"1\"},\"a0A4P00002LYaBZUA1\":{\"count\":5,\"attributeCode\":\"SG_CM_Age\",\"attributeLabel\":\"Age\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"Age\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":\"33\"},\"a0A4P00002LYaBaUAL\":{\"count\":4,\"attributeCode\":\"SG_CM_CensusMemberId\",\"attributeLabel\":\"CensusMemberId\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"CensusMemberId\",\"attributeDataType\":\"Text\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":null},\"a0A4P00002LYaBbUAL\":{\"count\":3,\"attributeCode\":\"SG_CM_Gender\",\"attributeLabel\":\"Gender\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"Gender\",\"attributeDataType\":\"Text\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":\"Male\"},\"a0A4P00002LYaBiUAL\":{\"count\":2,\"attributeCode\":\"SG_CM_Smoker\",\"attributeLabel\":\"Smoker\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"Smoker\",\"attributeDataType\":\"Boolean\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":false},\"a0A4P00002LYaBkUAL\":{\"count\":1,\"attributeCode\":\"SG_CM_RiskFactor\",\"attributeLabel\":\"RiskFactor\",\"objectId\":\"01t4P00000B5MUmQAN\",\"ratingInput\":\"RiskFactor\",\"attributeDataType\":\"Number\",\"categoryCode\":\"SG_CensusMember\",\"categoryName\":\"CensusMember\",\"attributeDefaultValue\":\"null\"}},\"01t4P00000B5MVfQAN\":{\"a0A4P00002LYaKCUA1\":{\"count\":1,\"attributeCode\":\"SG_ProductCode\",\"attributeLabel\":\"Product Code\",\"objectId\":\"01t4P00000B5MVfQAN\",\"ratingInput\":\"ProductCode\",\"attributeDataType\":\"Text\",\"categoryCode\":\"SG_ProductRating\",\"categoryName\":\"SG Product Rating\",\"attributeDefaultValue\":\"SG-DNT-CLS\"},\"productName\":\"HLS Dental Plan Classic\",\"productRecordType\":\"Product\",\"productCode\":\"SG-DNT-CLS-HLS\",\"isRoot\":true}}}",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__LineOfBusiness__c": "Group Dental",
+    "%vlocity_namespace%__MarketSegment__c": "Small Group",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "Dental-Plan-Classic_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PricingFormula__c": "GroupPremium",
+    "%vlocity_namespace%__PricingSource__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Dental-Plan-Classic_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "d78ac20c-92ab-ca71-25db-8d63083f68eb",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d78ac20c-92ab-ca71-25db-8d63083f68eb",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProviderNetworkId__c": "",
+    "%vlocity_namespace%__RateBandId__c": "",
+    "%vlocity_namespace%__RatingCalcProcedureName__c": "SmallGroupHLSMedicalProductsRatingExpSet",
+    "%vlocity_namespace%__RatingProcedureType__c": "Expression Set",
+    "%vlocity_namespace%__RecordTypeName__c": "Product",
+    "%vlocity_namespace%__ReplacementProductId__c": "",
+    "%vlocity_namespace%__ReserveProcessingMode__c": "CoverageReserve",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2023-04-15T08:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2020-04-14T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "PPO",
+    "%vlocity_namespace%__Term__c": "",
+    "%vlocity_namespace%__Tier__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TotalCoverageCalculationFormula__c": "",
+    "%vlocity_namespace%__TotalInsuredFormula__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Dental",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "None",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Dental Plan Classic",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Dental-Plan-Classic_PricebookEntries.json",
+    "ProductCode": "SG-DNT-CLS",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": "",
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Dental Plan Classic",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "f9be4f00-7a6a-d834-d467-e39055a6b453",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "f9be4f00-7a6a-d834-d467-e39055a6b453",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/f9be4f00-7a6a-d834-d467-e39055a6b453",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "SG-DNT-CLS",
+            "UnitPrice": 150,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/f9be4f00-7a6a-d834-d467-e39055a6b453"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/f9be4f00-7a6a-d834-d467-e39055a6b453"
+}
